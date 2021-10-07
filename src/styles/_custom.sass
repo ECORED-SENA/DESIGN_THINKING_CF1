@@ -1,0 +1,127 @@
+.BorTit
+  border-left: 5px solid $color-acento-contenido
+  padding: 6px 0px 6px 10px
+.fondo
+  background-image: url("../assets/curso/images/tema1/fondo.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: rigth
+  height: 300px
+.color-custom
+	background-color: #C4CFF6
+	&::before
+	  background-color:  #214BE5
+.jumbotron
+	background-color: #F6F6F6
+	border-radius: .5rem
+.jumbotron-1
+	background-color: #AFE9E8
+	border-radius: .5rem
+.jumbotron-2
+	background-color: #C7D3FF
+	border-radius: .5rem
+.jumbotron-3
+	background-color: #214BE5
+	border-radius: .5rem
+.jumbotron-4
+	background-color: #F6F6F6
+	border-radius: .3rem
+.jumbotron-5
+	background-color: #00BAB5
+	border-radius: .3rem
+.fondo-1
+  background-color: #BCE8E7
+  margin-top: -215px
+  margin-left: 200px
+.fondo-2
+  background-color: #BCE8E7
+.fondo-3
+  background-color: #C7D1F6
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: left
+.borde
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius:  20px
+.borde-1
+  border-top-left-radius:  20px
+  border-top-right-radius: 20px
+.cajon.color-primario 
+    background-color: #C7D1F6
+@keyframes flickerI
+	0%
+		opacity: 0.4
+	5%
+		opacity: 0.5
+	10%
+		opacity: 0.6
+	15%
+		opacity: 0.85
+	25%
+		opacity: 0.5
+	30%
+		opacity: 1
+	35%
+		opacity: 0.1
+	40%
+		opacity: 0.25
+	45%
+		opacity: 0.5
+	60%
+		opacity: 1
+	70%
+		opacity: 0.85
+	80%
+		opacity: 0.4
+	90%
+		opacity: 0.5
+	100%
+		opacity: 1
+.img_bomb
+  opacity: 1
+  position: relative
+  margin-rigth: -50px
+  img
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 25%
+    bottom: 57%
+    left: 37.1%
+    right: 58%
+    background: #FFD400
+    border-radius: 300px
+    opacity: 0.1
+    animation: flickerI 2s linear   reverse infinite
+    filter: blur(10px)
+@media screen and ( max-width: 1199px )
+  .img_bomb
+    &::before
+      top: 27%
+      bottom: 55%
+      left: 35%
+      right: 68%
+.position
+  margin-left: -10px
+.h1, .titulo-principal__numero span, .h2, .h3, .h4, .h5, .h6 
+    font-family: "Roboto", sans-serif
+    font-weight: 900
+    line-height: 1.2
+    margin: 0 0 0.75em
+    color: white;
+.color-flip
+    background-color: #F6F6F6;
+.tarjeta.color-secundario * 
+    color: black
+.color-custom-1
+	background-color: #BCEBFF
+	&::before
+	  background-color:  #00BAB5
+
+
+
+
+
+  
