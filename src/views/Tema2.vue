@@ -53,7 +53,7 @@
           h5.text-white.text-center Conozcamos los atributos del Design Thinking.
     
     .row.justify-content-center.mb-3
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.p-2.d-flex(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -68,7 +68,7 @@
             .tarjeta-flip__contenido.p-5.p-xl-5
               p.text-white.text-center El <i>Design Thinking</i> con frecuencia se utiliza para enfrentar “problemas perversos”, es decir, aquellos que no tienen una solución fija, que son complejos y llenos de incertidumbre.
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.p-1.d-flex(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -77,14 +77,13 @@
                   img.imagenes(src='@/assets/curso/images/tema2/ico_t_2.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                  br
                 .col-12
-                  p.p-3.text-center En casi todas las etapas del proceso se trabaja junto con colegas y expertos de distintas disciplinas.
+                  p.p-2.text-center En casi todas las etapas del proceso se trabaja junto con colegas y expertos de distintas disciplinas.
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center Para resolver problemas complejos y difíciles se requiere un acercamiento multidisciplinar, en los que la combinación de sabiduría de distintas áreas se usa con el propósito de entender en profundidad el problema. 
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.p-2.d-flex(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -99,7 +98,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center Las críticas constructivas son muy importantes, son un acercamiento que se enfoca en construir soluciones e involucra la ideación para construir sobre las ideas de otros.  
     .row.justify-content-center.mb-3
-      .col-sm-6.col-xl-3
+      .col-sm-6.col-xl-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -114,7 +113,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center  El comienzo del proceso de <i>Design Thinking</i> siempre involucra un entendimiento profundo del problema. Esto requiere de mucha curiosidad para ir más a fondo. Los insights provienen de sondeos profundos.
     
-      .col-sm-6.col-xl-3
+      .col-sm-6.col-xl-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -124,12 +123,10 @@
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_5.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
                 .col-12
-                  br
-                  br
                   p.p-2.text-center Tener la capacidad de entender las cosas desde la perspectiva del usuario.
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center   El <i>Design Thinking</i> es un enfoque centrado en el usuario para la resolución de problemas. Comienza con un profundo entendimiento de la perspectiva del usuario así como sus emociones y comportamientos.
-      .col-sm-6.col-xl-3
+      .col-sm-6.col-xl-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -139,12 +136,12 @@
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_6.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
                 .col-12
-                  p.p-3.text-center Ser capaz de ver el panorama general y ver una situación o problema desde múltiples ángulos o perspectivas.
+                  p.p-2.text-center Ser capaz de ver el panorama general y ver una situación o problema desde múltiples ángulos o perspectivas.
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center  Los problemas complejos requieren perspectivas holísticas. Por lo tanto, se considera toda la cadena de valor y canales de distribución. Cada pequeña parte suma para definir la experiencia de la solución.
     .row.justify-content-center.mb-5   
-      .col-sm-6.col-xl-3
+      .col-sm-6.col-xl-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -153,14 +150,13 @@
                   img.imagenes(src='@/assets/curso/images/tema2/ico_t_7.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_7.svg' alt="", style="width:70px; display:block; margin:auto 0;") 
-                  br
                 .col-12
-                  p.p-3.text-center Es un ciclo con bucles de retroalimentación donde se usa nueva información para mejorar las ideas a través de todo el proceso.
+                  p.p-2.text-center Es un ciclo con bucles de retroalimentación donde se usa nueva información para mejorar las ideas a través de todo el proceso.
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center  Las fases del <i>Design Thinking</i> no son lineales, sino que son modelos de pensamiento que pueden ser usados en un proyecto.
 
-      .col-sm-6.col-xl-3
+      .col-sm-6.col-xl-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -169,15 +165,12 @@
                   img.imagenes(src='@/assets/curso/images/tema2/ico_t_8.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_8.svg' alt="", style="width:70px; display:block; margin:auto 0;")
-                  br
-                  br
-                  br  
-                  br
                 .col-12
-                  p.p-4.text-center Ser capaz de discutir ideas sin tener juicios sobre ellas. 
+                  p.p-4.text-center Ser capaz de discutir ideas sin tener juicios sobre ellas.
+                  br
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center  En las fases de ideación de un proyecto de <i>Design Thinking</i> es esencial no permitir que las discusiones se conviertan en discusiones personales. Ninguna idea debe ser descartada, porque incluso las ideas que parezcan no factibles pueden inspirar más ideas y podrían llevar a una solución. 
-      .col-sm-6.col-xl-3
+      .col-sm-6.col-xl-4
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
@@ -186,9 +179,6 @@
                   img.imagenes(src='@/assets/curso/images/tema2/ico_t_9.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_9.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                  br
-                  br
-                  br
                 .col-12
                   p.p-4.text-center Abrazar ideas locas, no saltar a conclusiones y adoptar un enfoque experimental.
             .tarjeta-flip__contenido.p-4.p-xl-5
