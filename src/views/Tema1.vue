@@ -174,25 +174,7 @@
 
 
 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
-    br 
- 
-    Muestras
-  
+    
 </template>
 
 <script>

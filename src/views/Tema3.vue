@@ -7,15 +7,14 @@
         span 3
       h1 Fase de empatía
 
-    p.mb-3 La fase inicial del Design Thinking busca, a través de diferentes herramientas, entender las necesidades reales en el contexto del usuario para lograr generar soluciones pertinentes y eficientes para el problema planteado.
+    p.mb-3 La fase inicial del <i>Design Thinking</i> busca, a través de diferentes herramientas, entender las necesidades reales en el contexto del usuario para lograr generar soluciones pertinentes y eficientes para el problema planteado.
 
     .row.justify-content-center.align-items-center.p-5.mb-5
-
-      .col-12
+      .col-12.mb-5
         img(src='@/assets/curso/images/tema3/img_1.svg' alt="", style="width:800px; display:block; margin:auto;")
 
-    p.mb-5 Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el Design Thinking es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
-    
+      p Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el Design Thinking es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
+      
     .cajon.color-custom-1.p-4.mb-3
       .row.justify-content-center.mb-3  
         .col-10
@@ -53,7 +52,7 @@
     p.mb-5 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología Design Thinking, a continuación se profundizará en las más usadas:
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Mapa de empatía" :icono="require('@/assets/curso/images/tema3/ico_1.svg')")
+      .py-4.py-md-5.p-4.elemento-color(titulo="Mapa de empatía" :icono="require('@/assets/curso/images/tema3/ico_1.svg')")
         .row.justify-content-center.align-items-center.mt-5.mb-5
           h5.mb-5 Mapa de empatía
             br
@@ -63,85 +62,192 @@
                 .col-12
                   p Es una herramienta que permite describir al usuario con el que queremos trabajar en nuestro proyecto a través de un lienzo dividido en seis partes, las cuales incluyen diferentes preguntas con el objetivo de visualizar las necesidades del consumidor al ponerse en su lugar e identificar los diferentes elementos que generan respuestas emocionales en él.
             
-            p.mb-3 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas: 
-            .jumbotrom 
-             ImagenInfografica.color-secundario.mb-5
+            p.mb-5 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas: 
+              br
+              br
+              ImagenInfografica.color-secundario.mb-3
                 template(v-slot:imagen)
                   figure
-                    img(src='@/assets/curso/images/tema3/img_5_1.svg',  alt="", style="width:300px; display:block; margin:auto;")
+                    img(src='@/assets/curso/images/tema3/img_5_1.svg',  alt="", style="width:400px; display:block; margin:auto;")
                     
 
-                .tarjeta.color-acento-botones.p-3(x="50%" y="8%")
-                  .h5.mb-2 ¿Qué piensa y siente?
-                  p Lo que realmente importa Principales preocupaciones Inquietudes y aspiraciones
+                .tarjeta.color-infografica.p-3(x="50%" y="8%")
+                  .row.justify-content-center.mb-3  
+                    .col-4
+                      img(src='@/assets/curso/images/tema3/ico_6.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                    .col-8
+                      h5.mb-2 ¿Qué piensa y siente?
+                      p Lo que realmente importa Principales preocupaciones Inquietudes y aspiraciones
+                .tarjeta.color-infografica.p-3(x="66%" y="30%")
+                  .row.justify-content-center.mb-3  
+                    .col-4
+                      img(src='@/assets/curso/images/tema3/ico_7.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                    .col-8
+                      h5.mb-2 ¿Qué ve?
+                      p En su entorno / En sus amigos / En el mercado
+                .tarjeta.color-infografica.p-3(x="66%" y="70%")
+                  .row.justify-content-center.mb-3  
+                    .col-4
+                      img(src='@/assets/curso/images/tema3/ico_8.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                    .col-8
+                      h5.mb-2 Resultados
+                      p Deseos / necesidades/ Medida del éxito / Obstáculos
+                .tarjeta.color-infografica.p-3(x="50%" y="90%")
+                  .row.justify-content-center.mb-3  
+                    .col-4
+                      img(src='@/assets/curso/images/tema3/ico_9.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                    .col-8
+                      h5.mb-2 ¿Qué dice y hace?
+                      p  Actitud en público / Aspecto / Comportamiento hacia los clientes
+                .tarjeta.color-infografica.p-3(x="33%" y="70%")
+                  .row.justify-content-center.mb-3  
+                    .col-4
+                      img(src='@/assets/curso/images/tema3/ico_10.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                    .col-8
+                      h5.mb-2 Esfuerzos
+                      p Miedos / Frustraciones / Obstáculos
+                .tarjeta.color-infografica.p-3(x="33%" y="30%")
+                  .row.justify-content-center.mb-3  
+                    .col-4
+                      img(src='@/assets/curso/images/tema3/ico_11.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                    .col-8
+                      h5.mb-2 ¿Qué oye?
+                      p Lo que dicen sus amigos / Lo que dice su jefe
+        
+            p.mb-3 Para conocer más sobre la entrevista semiestructurada como herramienta para empatizar, se invita a observar el video que se encuentra en el material complementario.
 
-                .tarjeta.color-acento-botones.p-3(x="50%" y="50%")
-                  .h5.mb-2 titulo
-                  p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .py-4.py-md-5.p-4.elemento-color(titulo="Mapa de travesía del usuario" :icono="require('@/assets/curso/images/tema3/ico_2.svg')")
+        .row.justify-content-center.align-items-center.mt-5.mb-5
+          h5.mb-5 Mapa de travesía del usuario
+            br
+            br
+            .col-12
+              .cajon.color-custom.p-4.mb-5
+                .col-12
+                  p Esta herramienta es muy utilizada para el diseño de servicios ya que permite tener una visión gráfica sobre el proceso que atraviesa un usuario al acceder a un producto o servicio. 
+              .cajon.color-custom-1.p-4.mb-3
+                .col-12
+                  p En él se rastrean y describen las experiencias del cliente a través de los puntos de contacto que ofrecen los servicios y, así, comprender  las emociones que surgen en los clientes y entender su interacción con nuestro producto o servicio. 
+        
+          h5.text-center Mapa de travesía del usuario
 
-                .tarjeta.color-acento-botones.p-3(x="70%" y="70%")
-                  .h5.mb-2 titulo
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+        .row.justify-content-center.align-items-center.p-5.mb-5
+          .col-12
+            img(src='@/assets/curso/images/tema3/img_6.svg' alt="", style="width:800px; display:block; margin:auto;")
+
+      .py-4.py-md-5.p-4.elemento-color(titulo="Un día en la vida de…" :icono="require('@/assets/curso/images/tema3/ico_3.svg')")
+        .jumbotron-7.p-4
+          .row.mb-5
             .col-md-6
               figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
+                img(src='@/assets/curso/images/tema3/img_7.svg',alt="", style="width:330px; display:block; margin:auto;")
+            .col-md-6.mb-4.mb-md-0
+              .jumbotron-1.p-5
+                p Esta técnica hace parte de una serie de métodos de investigación que buscan entender mejor las actividades que realiza el usuario, los problemas a los cuales se enfrenta y los productos o artefactos con los que interactúa durante un periodo de tiempo previamente determinado. Se utiliza para identificar los niveles emocionales de las interacciones del usuario y determinar en qué puntos del proceso se puede intervenir desde el diseño de soluciones.
+          .row
+            .col-md-6.mb-4.mb-md-0
+              .jumbotron-2.p-5
+                p Al utilizar esta técnica es importante registrar la mayor cantidad de información posible y puede ser mezclada con otras herramientas como entrevistas semidirigidas a los usuarios en observación. Existen diversas formas de enfocar las preguntas de acuerdo con la cronología y las situaciones (en el trabajo, en casa). Estas situaciones funcionan como escenarios en los que el actor principal es el entrevistado. Son cuatro: actividades y ocupaciones, lugares, gente alrededor y preocupaciones.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema3/img_8.svg',alt="", style="width:380px; display:block; margin:auto;")
 
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/images/tema3/ico_2.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-      .py-4.py-md-5(titulo="Don’t quit" :icono="require('@/assets/curso/images/tema3/ico_3.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 3
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
 
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/images/tema3/ico_4.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 4
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .py-4.py-md-5.p-4.elemento-color(titulo="Entrevistas semiestructuradas" :icono="require('@/assets/curso/images/tema3/ico_4.svg')")
+     
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-12
+            h5.mb-5 Entrevistas semiestructuradas
+              br
+              br
+              img(src='@/assets/curso/images/tema3/img_9.svg',alt="", style="width:880px; display:block; margin:auto;")
+          .jumbotron-7.p-4.mb-5
+              p.mb-3 Es una técnica de investigación cualitativa que se utiliza para recolectar información de usuarios que permite entender con mayor grado de detalle, percepciones, motivaciones, y frustraciones alrededor de una situación en particular. En este tipo de entrevista es importante tener claros los objetivos de la misma para guiar la conversación y enfocar la atención en los temas principales, además de profundizar y descubrir aspectos relevantes.
+          .jumbotron-7.p-4.mb-5 
+              p.mb-5 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente. 
+
+          .row.justify-content-center.align-items-center.mb-5
+            .col-5
+                .jumbotron-8.p-5
+                  ul.lista-ul
+                    li 
+                      i.fas.fa-angle-right
+                      | Enfocarse en la necesidad, no en la solución.
+                    li 
+                      i.fas.fa-angle-right
+                      | Tener cuidado con el sesgo de confirmación.
+                    li 
+                      i.fas.fa-angle-right
+                      | El entrevistado no está para validar lo que piensa el entrevistador. El entrevistador está ahí para descubrir una necesidad.
+                    li 
+                      i.fas.fa-angle-right
+                      | Hacer la entrevista en persona y una persona a la vez. Esto te permitirá captar señales de gestos y expresiones faciales. 
+                    li 
+                      i.fas.fa-angle-right
+                      | Hacer preguntas abiertas, que parezca una conversación, esto permite lograr más profundidad en los temas clave y tener nuevos hallazgos. 
+                    li 
+                      i.fas.fa-angle-right
+                      | Propiciar espacios para que los usuarios cuenten una historia.
+                    li 
+                      i.fas.fa-angle-right
+                      | Procura escuchar más de lo que hablas.
+                    li 
+                      i.fas.fa-angle-right
+                      | Seguir su instinto y profundizar preguntando varias veces (¿por qué?).
+                    li 
+                      i.fas.fa-angle-right
+                      | Entender las necesidades del usuario.
+            .col-5
+                .jumbotron-9.p-5
+                  ul.lista-ul
+                    li 
+                      i.fas.fa-angle-right
+                      | Sentir que se sabe todas las respuestas.          
+                    li 
+                      i.fas.fa-angle-right
+                      | Esperar que el usuario tenga todas las respuestas y soluciones.
+                    li 
+                      i.fas.fa-angle-right
+                      | Los usuarios identifican sus motivaciones, necesidades o frustraciones. 
+                    li 
+                      i.fas.fa-angle-right
+                      | No es un momento para vender, sino para aprender, se recomienda no mencionar las ideas de cómo resolver el problema. 
+                    li 
+                      i.fas.fa-angle-right
+                      | Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
+
         
       
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/images/tema3/ico_5.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 5
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 6
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .py-4.py-md-5.p-4.elemento-color(titulo="Creación del arquetipo" :icono="require('@/assets/curso/images/tema3/ico_5.svg')")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-12
+            h5.mb-5.p-3 Creación del arquetipo
+              br
+              br
+              img(src='@/assets/curso/images/tema3/img_10.svg',alt="", style="width:680px; display:block; margin:auto;")
 
+            .jumbotron-7.p-5.mb-5
+              P.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 
 
+              p.mb-5 Para crearlos se debe partir de la recolección de información desde lo general a lo particular con el objetivo de definir la esencia y los patrones de conducta del grupo de usuarios que queremos impactar. 
+          .jumbotron.mb-3
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-12.mb-3.mb-lg-0
+                .jumbotron-5.p-3.borde-1.mb-5
+                  h5.text-center <i>Proceso de creación del arquetipo “de lo general a lo particular”</i>
 
+              .col-md-10.mb-5
+                figure
+                  img(src='@/assets/curso/images/tema3/img_11.svg', alt="", style="width:580px; display:block; margin:auto;")
+              
+              .jumbotron-7.p-5.mb-3
+                P Esta técnica ayuda a los equipos de trabajo a tener una visión de conjunto sobre a quién se están dirigiendo y adecuar el diseño u oferta a los objetivos, motivaciones y comportamiento de los clientes.
+
+              .jumbotron-7.p-5.mb-3
+                P Los arquetipos son construidos después de una observación exhaustiva de los clientes del servicio y/o producto, en los que se incluye tanto a los actuales cómo a los potenciales.
+
+              .jumbotron-7.p-5.mb-3
+                P Es una técnica mixta de diseño e investigación utilizada para guiar decisiones en diferentes fases del proyecto; por lo anterior, es importante recalcar que dichos perfiles se basan única y exclusivamente en los resultados de una investigación.  
 
 </template>
 

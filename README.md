@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://github.com/ECORED-SENA/DESIGN_THINKING_CF1](https://github.com/ECORED-SENA/DESIGN_THINKING_CF1)
 
 #
 
