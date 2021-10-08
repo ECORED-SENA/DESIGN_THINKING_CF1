@@ -64,7 +64,7 @@
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
                 .col-12
-                  p.p-2.text-center Cuando se está trabajando en un problema, aceptar que las cosas pueden ser poco claras o mal definidas y que las respuestas no pueden ser obvias o conocidas.
+                  p.p-2.text-center.text-small Cuando se está trabajando en un problema, aceptar que las cosas pueden ser poco claras o mal definidas y que las respuestas no pueden ser obvias o conocidas.
             .tarjeta-flip__contenido.p-5.p-xl-5
               p.text-white.text-center El <i>Design Thinking</i> con frecuencia se utiliza para enfrentar “problemas perversos”, es decir, aquellos que no tienen una solución fija, que son complejos y llenos de incertidumbre.
 
@@ -93,7 +93,7 @@
                 .col-auto 
                   img(src='@/assets/curso/images/tema2/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
                 .col-12
-                  p.text-center Construir sobre las ideas de otros durante la ideación en lugar de discutir en contra de una idea, se construye a partir de ella sugiriendo cambios o retoques.
+                  p.text-center.text-small Construir sobre las ideas de otros durante la ideación en lugar de discutir en contra de una idea, se construye a partir de ella sugiriendo cambios o retoques.
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center Las críticas constructivas son muy importantes, son un acercamiento que se enfoca en construir soluciones e involucra la ideación para construir sobre las ideas de otros.  
