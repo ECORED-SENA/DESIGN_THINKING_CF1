@@ -167,7 +167,7 @@
               p.mb-5 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente. 
 
           .row.justify-content-center.align-items-center.mb-5
-            .col-5
+            .col-12.col-md-8.col-lg-6.col-xl-6
                 .jumbotron-8.p-5
                   ul.lista-ul
                     li 
@@ -197,7 +197,7 @@
                     li 
                       i.fas.fa-angle-right
                       | Entender las necesidades del usuario.
-            .col-5
+            .col-12.col-md-8.col-lg-6.col-xl-6
                 .jumbotron-9.p-5
                   ul.lista-ul
                     li 
