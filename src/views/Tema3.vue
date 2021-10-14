@@ -9,13 +9,13 @@
 
     p.mb-3 La fase inicial del <i>Design Thinking</i> busca, a través de diferentes herramientas, entender las necesidades reales en el contexto del usuario para lograr generar soluciones pertinentes y eficientes para el problema planteado.
 
-    .row.justify-content-center.align-items-center.p-5.mb-5
+    .row.justify-content-center.align-items-center.p-5
       .col-12.mb-5
         img(src='@/assets/curso/images/tema3/img_1.svg' alt="", style="width:800px; display:block; margin:auto;")
 
       p Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el <i>Design Thinking</i> es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
       
-    .cajon.color-custom-1.p-4.mb-3
+    .cajon.color-custom-1.p-4.mb-5
       .row.justify-content-center.mb-3  
         .col-10
           p Empatizar requiere habilidades como la escucha activa, recolección de información e interés genuino por el usuario; así como escuchar, observar y preguntar con el propósito de entender, desde los zapatos del usuario, su visión del mundo, sin que lo anterior incite a emitir juicios de valor.
@@ -78,14 +78,14 @@
                     .col-8
                       h5.mb-2 ¿Qué piensa y siente?
                       p Lo que realmente importa Principales preocupaciones Inquietudes y aspiraciones
-                .tarjeta.color-infografica.p-3(x="64%" y="30%")
+                .tarjeta.color-infografica.p-3(x="67%" y="30%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_7.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 ¿Qué ve?
                       p En su entorno / En sus amigos / En el mercado
-                .tarjeta.color-infografica.p-3(x="64%" y="70%")
+                .tarjeta.color-infografica.p-3(x="67%" y="70%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_8.svg',  alt="", style="width:80px; display:block; margin:1rem;")
@@ -99,14 +99,14 @@
                     .col-8
                       h5.mb-2 ¿Qué dice y hace?
                       p  Actitud en público / Aspecto / Comportamiento hacia los clientes
-                .tarjeta.color-infografica.p-3(x="36%" y="70%")
+                .tarjeta.color-infografica.p-3(x="33%" y="70%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_10.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 Esfuerzos
                       p Miedos / Frustraciones / Obstáculos
-                .tarjeta.color-infografica.p-3(x="36%" y="30%")
+                .tarjeta.color-infografica.p-3(x="33%" y="30%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_11.svg',  alt="", style="width:80px; display:block; margin:1rem;")
