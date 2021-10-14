@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Design Thinking
+      h1 <i>Design Thinking</i>
 
     .row.justify-content-center.align-items-center.p-5.mb-5.img_bomb.d-none.d-lg-block
       .col-12
@@ -36,7 +36,7 @@
               img(src='@/assets/curso/images/tema2/ico_15.svg' alt="", style="width:60px; display:block; margin:auto 0;")    
           .col
             h5 El diseño 
-            p.mb-2 El diseño centrado en el usuario que, aunque puede parecer obvio, es una de las principales causas por la cual las empresas no logran conectar con su consumidor, por ejemplo; cuando se llega a una página web, ¿la empresa habla directamente al consumidor y le cuenta cómo puede solucionar su problema? O, por el contrario, tiene una lista de los productos que ofrece para que el usuario se acomode a ellos; así que cuando se  trabaja con Design Thinking,  se busca llegar a un nivel más profundo de comprensión del contexto y del consumidor. 
+            p.mb-2 El diseño centrado en el usuario que, aunque puede parecer obvio, es una de las principales causas por la cual las empresas no logran conectar con su consumidor, por ejemplo; cuando se llega a una página web, ¿la empresa habla directamente al consumidor y le cuenta cómo puede solucionar su problema? O, por el contrario, tiene una lista de los productos que ofrece para que el usuario se acomode a ellos; así que cuando se  trabaja con <i>Design Thinking</i>,  se busca llegar a un nivel más profundo de comprensión del contexto y del consumidor. 
         hr.mt-4.mb-4
         .row.justify-content-center.align-items-center
           .col-auto
@@ -50,7 +50,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-3.mb-lg-0
         .jumbotron-3.p-3
-          h5.text-white.text-center Conozcamos los atributos del Design Thinking.
+          h5.text-white.text-center Conozcamos los atributos del <i>Design Thinking.</i>
     
     .row.justify-content-center.mb-3
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -186,19 +186,19 @@
     .cajon.color-custom.p-4.mb-5
       .row.justify-content-center.mb-3  
         .col-6 
-          p Para conocer algunos ejemplos, se invita a ver el video <b>Metodología Design Thinking – Ejemplos</b>, que se encuentra en el material complementario.
+          p Para conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
         .col-6
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank") 
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p Metodología Design Thinking – Ejemplos.
+              p Metodología <i>Design Thinking</i> – Ejemplos.
 
-    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del Design Thinking, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking</i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
 
     LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
 
-    p.mb-5 De acuerdo con la universidad de Stanford, la metodología Design Thinking cuenta con cinco fases que se describen a continuación:
+    p.mb-5 De acuerdo con la universidad de Stanford, la metodología <i>Design Thinking</i> cuenta con cinco fases que se describen a continuación:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-auto
@@ -297,7 +297,7 @@ export default {
         ano: '2008',
         titulo: '',
         texto:
-          'La metodología que conocemos hoy es el resultado del trabajo de Tim Brown, cuando escribió un tratado en Harvard Business Review en el que desarrolló una metodología iniciada por Herbert Simons, llamada Design Thinking "Contemplation", este artículo marca el inicio del uso del Design Thinking como una gran técnica de innovación.',
+          'La metodología que conocemos hoy es el resultado del trabajo de Tim Brown, cuando escribió un tratado en Harvard Business Review en el que desarrolló una metodología iniciada por Herbert Simons, llamada <i>Design Thinking</i> "Contemplation", este artículo marca el inicio del uso del <i>Design Thinking</i> como una gran técnica de innovación.',
       },
     ],
   }),

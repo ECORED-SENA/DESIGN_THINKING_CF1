@@ -156,7 +156,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Ana Catalina Córdoba',
+        nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Revisora Metodológica y Pedagógica',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
@@ -214,7 +214,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

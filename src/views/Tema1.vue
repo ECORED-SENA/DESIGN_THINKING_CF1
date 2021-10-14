@@ -9,8 +9,8 @@
     
 
     p.mb-5 Las metodologías de innovación son conjuntos de herramientas o formas de actuar que tienen como propósito principal promover no solo la interacción entre las diferentes áreas de la organización, sino también de involucrar a los colaboradores en la identificación y solución de problemas reales que, como consecuencia, impactan la motivación y el sentido de pertenencia de los mismos. 
-    .row
-      .col-lg-12.d-none.d-lg-block  
+    .row.fondo-4.mb-5 
+      .col-lg-12.d-none.d-lg-block
         .bloque-texto-g.color-custom.p-3.p-sm-4.p-md-5.mb-5
           
           .bloque-texto-g__img.p-5(style="left: 530px;")(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`}"
@@ -159,7 +159,7 @@
                     i.lista-ul__vineta
                       | Forth Innovation Method.
 
-    p.mb-3 Cada una de estas metodologías proveen herramientas para gestionar procesos de innovación, aportan agilidad y ritmo a los procesos reduciendo el tiempo de desarrollo dando la oportunidad de mantenerse competitivas a las empresas que trabajan con ellas; para comenzar, es importante tener muy clara la necesidad que tiene la organización de innovar y cómo esta se alinea con los objetivos estratégicos de la misma; también es importante determinar el tipo de organización a la cual se pertenece o se quiere impactar. La metodología de Design Thinking es comúnmente utilizada para iniciar procesos de innovación difusos donde el usuario es la principal fuente de información para solucionar problemas reales.
+    p.mb-3 Cada una de estas metodologías proveen herramientas para gestionar procesos de innovación, aportan agilidad y ritmo a los procesos reduciendo el tiempo de desarrollo dando la oportunidad de mantenerse competitivas a las empresas que trabajan con ellas; para comenzar, es importante tener muy clara la necesidad que tiene la organización de innovar y cómo esta se alinea con los objetivos estratégicos de la misma; también es importante determinar el tipo de organización a la cual se pertenece o se quiere impactar. La metodología de <i>Design Thinking</i> es comúnmente utilizada para iniciar procesos de innovación difusos donde el usuario es la principal fuente de información para solucionar problemas reales.
 
 
 

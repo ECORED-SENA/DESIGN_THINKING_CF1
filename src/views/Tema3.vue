@@ -13,7 +13,7 @@
       .col-12.mb-5
         img(src='@/assets/curso/images/tema3/img_1.svg' alt="", style="width:800px; display:block; margin:auto;")
 
-      p Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el Design Thinking es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
+      p Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el <i>Design Thinking</i> es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
       
     .cajon.color-custom-1.p-4.mb-3
       .row.justify-content-center.mb-3  
@@ -47,9 +47,9 @@
 
     h5 Herramientas
 
-    p.mb-3 Existen diferentes herramientas y técnicas para comenzar a empatizar dentro de un proceso de Design Thinking, donde su objetivo principal es sumergir al interesado en información proveniente de diferentes fuentes para entender la realidad del problema identificado en ojos del usuario seleccionado de la manera más genuina posible. Lo anterior con el propósito de consolidar datos verídicos que permitan una toma de decisiones acertada y minimicen la incertidumbre generada en este tipo de procesos.
+    p.mb-3 Existen diferentes herramientas y técnicas para comenzar a empatizar dentro de un proceso de <i>Design Thinking</i>, donde su objetivo principal es sumergir al interesado en información proveniente de diferentes fuentes para entender la realidad del problema identificado en ojos del usuario seleccionado de la manera más genuina posible. Lo anterior con el propósito de consolidar datos verídicos que permitan una toma de decisiones acertada y minimicen la incertidumbre generada en este tipo de procesos.
 
-    p.mb-5 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología Design Thinking, a continuación se profundizará en las más usadas:
+    p.mb-5 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología <i>Design Thinking</i>, a continuación se profundizará en las más usadas:
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5.p-4.elemento-color(titulo="Mapa de empatía" :icono="require('@/assets/curso/images/tema3/ico_1.svg')")
@@ -78,14 +78,14 @@
                     .col-8
                       h5.mb-2 ¿Qué piensa y siente?
                       p Lo que realmente importa Principales preocupaciones Inquietudes y aspiraciones
-                .tarjeta.color-infografica.p-3(x="66%" y="30%")
+                .tarjeta.color-infografica.p-3(x="64%" y="30%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_7.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 ¿Qué ve?
                       p En su entorno / En sus amigos / En el mercado
-                .tarjeta.color-infografica.p-3(x="66%" y="70%")
+                .tarjeta.color-infografica.p-3(x="64%" y="70%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_8.svg',  alt="", style="width:80px; display:block; margin:1rem;")
@@ -99,14 +99,14 @@
                     .col-8
                       h5.mb-2 ¿Qué dice y hace?
                       p  Actitud en público / Aspecto / Comportamiento hacia los clientes
-                .tarjeta.color-infografica.p-3(x="33%" y="70%")
+                .tarjeta.color-infografica.p-3(x="36%" y="70%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_10.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 Esfuerzos
                       p Miedos / Frustraciones / Obstáculos
-                .tarjeta.color-infografica.p-3(x="33%" y="30%")
+                .tarjeta.color-infografica.p-3(x="36%" y="30%")
                   .row.justify-content-center.mb-3  
                     .col-4
                       img(src='@/assets/curso/images/tema3/ico_11.svg',  alt="", style="width:80px; display:block; margin:1rem;")
