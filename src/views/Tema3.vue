@@ -134,6 +134,10 @@
         .row.justify-content-center.align-items-center.p-5.mb-5
           .col-12
             img(src='@/assets/curso/images/tema3/img_6.svg' alt="", style="width:800px; display:block; margin:auto;")
+              
+        .cajon.color-custom-2.p-4.mb-3
+          .col-12
+            p Al aplicar esta herramienta podremos identificar oportunidades de mejora o también podrán surgir nuevas ideas de productos o servicios para suplir necesidades que aún no han sido satisfechas para el usuario. 
 
       .py-4.py-md-5.p-4.elemento-color(titulo="Un día en la vida de…" :icono="require('@/assets/curso/images/tema3/ico_3.svg')")
         .jumbotron-7.p-4
