@@ -68,51 +68,42 @@
               ImagenInfografica.color-secundario.mb-3
                 template(v-slot:imagen)
                   figure
-                    img(src='@/assets/curso/images/tema3/img_5_1.svg',  alt="", style="width:400px; display:block; margin:auto;")
+                    img(src='@/assets/curso/images/tema3/img_5.svg',  alt="", style="width:900px; display:block; margin:auto;")
                     
 
-                .tarjeta.color-infografica.p-3(x="50%" y="8%")
+                .tarjeta.color-infografica.p-3(x="50%" y="24%")
                   .row.justify-content-center.mb-3  
-                    .col-4
-                      img(src='@/assets/curso/images/tema3/ico_6.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 ¿Qué piensa y siente?
-                      p Lo que realmente importa Principales preocupaciones Inquietudes y aspiraciones
-                .tarjeta.color-infografica.p-3(x="67%" y="30%")
+                      p Conocer cuáles son las principales inquietudes y aspiraciones del usuario a corto, mediano y largo plazo.
+                .tarjeta.color-infografica.p-3(x="65%" y="38%")
                   .row.justify-content-center.mb-3  
-                    .col-4
-                      img(src='@/assets/curso/images/tema3/ico_7.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 ¿Qué ve?
-                      p En su entorno / En sus amigos / En el mercado
-                .tarjeta.color-infografica.p-3(x="67%" y="70%")
+                      p Describir el entorno social de la persona, cómo es y qué imágenes o situaciones se presentan dentro de su cotidianidad.
+                .tarjeta.color-infografica.p-3(x="65%" y="62%")
                   .row.justify-content-center.mb-3  
-                    .col-4
-                      img(src='@/assets/curso/images/tema3/ico_8.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 Resultados
-                      p Deseos / necesidades/ Medida del éxito / Obstáculos
-                .tarjeta.color-infografica.p-3(x="50%" y="90%")
+                      p iEste mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
+                .tarjeta.color-infografica.p-3(x="51%" y="75%")
                   .row.justify-content-center.mb-3  
-                    .col-4
-                      img(src='@/assets/curso/images/tema3/ico_9.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 ¿Qué dice y hace?
-                      p  Actitud en público / Aspecto / Comportamiento hacia los clientes
-                .tarjeta.color-infografica.p-3(x="33%" y="70%")
-                  .row.justify-content-center.mb-3  
-                    .col-4
-                      img(src='@/assets/curso/images/tema3/ico_10.svg',  alt="", style="width:80px; display:block; margin:1rem;")
+                      p  Detallar el discurso de la persona, cómo es su comportamiento y sus prácticas diarias, entender si hay coherencia entre estas dos prácticas para conocer al usuario desde su comportamiento.
+                .tarjeta.color-infografica.p-3(x="36%" y="62%")
+                  .row.justify-content-center.mb-3      
                     .col-8
                       h5.mb-2 Esfuerzos
-                      p Miedos / Frustraciones / Obstáculos
-                .tarjeta.color-infografica.p-3(x="33%" y="30%")
+                      p Luego de responder estas preguntas iniciales, se concluye el mapa de empatía con dos preguntas más: 
+                      p ¿CUÁLES SON SUS DOLORES? 
+                      p ¿CUÁLES SON SUS NECESIDADES? 
+
+                .tarjeta.color-infografica.p-3(x="36%" y="37%")
                   .row.justify-content-center.mb-3  
-                    .col-4
-                      img(src='@/assets/curso/images/tema3/ico_11.svg',  alt="", style="width:80px; display:block; margin:1rem;")
                     .col-8
                       h5.mb-2 ¿Qué oye?
-                      p Lo que dicen sus amigos / Lo que dice su jefe
+                      p Describir los estímulos que escucha el usuario, abarcando su estilo musical, el tipo de noticias, información de familiares, amigos y líderes de opinión que sigue.
         
             p.mb-3 Para conocer más sobre la entrevista semiestructurada como herramienta para empatizar, se invita a observar el video que se encuentra en el material complementario.
 
