@@ -85,7 +85,7 @@
                   .row.justify-content-center.mb-3  
                     .col-8
                       h5.mb-2 Resultados
-                      p iEste mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
+                      p Este mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
                 .tarjeta.color-infografica.p-3(x="51%" y="75%")
                   .row.justify-content-center.mb-3  
                     .col-8
