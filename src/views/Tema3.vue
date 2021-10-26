@@ -10,15 +10,16 @@
     p.mb-3 La fase inicial del <i>Design Thinking</i> busca, a través de diferentes herramientas, entender las necesidades reales en el contexto del usuario para lograr generar soluciones pertinentes y eficientes para el problema planteado.
 
     .row.justify-content-center.align-items-center.p-5
-      .col-12.mb-5
-        img(src='@/assets/curso/images/tema3/img_1.svg' alt="", style="width:800px; display:block; margin:auto;")
+      .col-10.mb-5
+          img(src='@/assets/curso/images/tema3/img_1.svg' alt="", style="width:800px; display:block; margin:auto;")
 
       p Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el <i>Design Thinking</i> es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
-      
-    .cajon.color-custom-1.p-4.mb-5
-      .row.justify-content-center.mb-3  
-        .col-10
-          p Empatizar requiere habilidades como la escucha activa, recolección de información e interés genuino por el usuario; así como escuchar, observar y preguntar con el propósito de entender, desde los zapatos del usuario, su visión del mundo, sin que lo anterior incite a emitir juicios de valor.
+    .row.justify-content-center.align-items-center
+      .col-10 
+        .cajon.color-custom-1.p-4.mb-5
+          .row.justify-content-center.mb-3  
+            .col-10
+              p Empatizar requiere habilidades como la escucha activa, recolección de información e interés genuino por el usuario; así como escuchar, observar y preguntar con el propósito de entender, desde los zapatos del usuario, su visión del mundo, sin que lo anterior incite a emitir juicios de valor.
 
     p.mb-5 La posición como investigadores debe ser neutral, lo cual permitirá obtener gran cantidad de información que, posteriormente, se podrá filtrar y analizar. Así, la empatía es el entendimiento del comportamiento del usuario en relación con una problemática real, debe ser un entendimiento profundo y no puede ser superficial, porque es la base y guía para obtener buenos resultados con el proceso.
 
@@ -57,12 +58,13 @@
           h5.mb-5 Mapa de empatía
             br
             br
-            .col-12
-              .cajon.color-custom-1.p-4.mb-3
-                .col-12
-                  p Es una herramienta que permite describir al usuario con el que queremos trabajar en nuestro proyecto a través de un lienzo dividido en seis partes, las cuales incluyen diferentes preguntas con el objetivo de visualizar las necesidades del consumidor al ponerse en su lugar e identificar los diferentes elementos que generan respuestas emocionales en él.
+            .row.justify-content-center.align-items-center
+              .col-10
+                .cajon.color-custom-1.p-4.mb-3
+                  .col-10
+                    p Es una herramienta que permite describir al usuario con el que queremos trabajar en nuestro proyecto a través de un lienzo dividido en seis partes, las cuales incluyen diferentes preguntas con el objetivo de visualizar las necesidades del consumidor al ponerse en su lugar e identificar los diferentes elementos que generan respuestas emocionales en él.
             
-            p.mb-5 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas: 
+              p.mb-5 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas: 
               br
               br
               ImagenInfografica.color-secundario.mb-3
@@ -104,8 +106,12 @@
                     .col-8
                       h5.mb-2 ¿Qué oye?
                       p Describir los estímulos que escucha el usuario, abarcando su estilo musical, el tipo de noticias, información de familiares, amigos y líderes de opinión que sigue.
+          p.text-center Luego de responder estas preguntas iniciales, se concluye el mapa de empatía con dos preguntas más: 
+        .row.justify-content-center.align-items-center.mb-3
+          p.text-center <b> ¿CUÁLES SON SUS DOLORES? </b>
+          p.text-center <b> ¿CUÁLES SON SUS NECESIDADES? </b>
+          
         
-            p.mb-3 Para conocer más sobre la entrevista semiestructurada como herramienta para empatizar, se invita a observar el video que se encuentra en el material complementario.
 
       .py-4.py-md-5.p-4.elemento-color(titulo="Mapa de travesía del usuario" :icono="require('@/assets/curso/images/tema3/ico_2.svg')")
         .row.justify-content-center.align-items-center.mt-5.mb-5
@@ -150,66 +156,66 @@
 
       .py-4.py-md-5.p-4.elemento-color(titulo="Entrevistas semiestructuradas" :icono="require('@/assets/curso/images/tema3/ico_4.svg')")
      
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-12
-            h5.mb-5 Entrevistas semiestructuradas
-              br
-              br
-              img(src='@/assets/curso/images/tema3/img_9.svg',alt="", style="width:880px; display:block; margin:auto;")
-          .jumbotron-7.p-4.mb-5
-              p.mb-3 Es una técnica de investigación cualitativa que se utiliza para recolectar información de usuarios que permite entender con mayor grado de detalle, percepciones, motivaciones, y frustraciones alrededor de una situación en particular. En este tipo de entrevista es importante tener claros los objetivos de la misma para guiar la conversación y enfocar la atención en los temas principales, además de profundizar y descubrir aspectos relevantes.
-          .jumbotron-7.p-4.mb-5 
-              p.mb-5 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente. 
+        .row.justify-content-center.align-items-center
+          .col-10
+              h5.mb-5 Entrevistas semiestructuradas
+                br
+                br
+                img(src='@/assets/curso/images/tema3/img_9.svg',alt="", style="width:880px; display:block; margin:auto;")
+              .jumbotron-7.p-4.mb-5
+                  p.mb-3 Es una técnica de investigación cualitativa que se utiliza para recolectar información de usuarios que permite entender con mayor grado de detalle, percepciones, motivaciones, y frustraciones alrededor de una situación en particular. En este tipo de entrevista es importante tener claros los objetivos de la misma para guiar la conversación y enfocar la atención en los temas principales, además de profundizar y descubrir aspectos relevantes.
+              .jumbotron-7.p-4.mb-5 
+                  p.mb-5 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente. 
 
           .row.justify-content-center.align-items-center.mb-5
-            .col-12.col-md-8.col-lg-6.col-xl-6
-                .jumbotron-8.p-5
-                  ul.lista-ul
-                    li 
-                      i.fas.fa-angle-right
-                      | Enfocarse en la necesidad, no en la solución.
-                    li 
-                      i.fas.fa-angle-right
-                      | Tener cuidado con el sesgo de confirmación.
-                    li 
-                      i.fas.fa-angle-right
-                      | El entrevistado no está para validar lo que piensa el entrevistador. El entrevistador está ahí para descubrir una necesidad.
-                    li 
-                      i.fas.fa-angle-right
-                      | Hacer la entrevista en persona y una persona a la vez. Esto te permitirá captar señales de gestos y expresiones faciales. 
-                    li 
-                      i.fas.fa-angle-right
-                      | Hacer preguntas abiertas, que parezca una conversación, esto permite lograr más profundidad en los temas clave y tener nuevos hallazgos. 
-                    li 
-                      i.fas.fa-angle-right
-                      | Propiciar espacios para que los usuarios cuenten una historia.
-                    li 
-                      i.fas.fa-angle-right
-                      | Procura escuchar más de lo que hablas.
-                    li 
-                      i.fas.fa-angle-right
-                      | Seguir su instinto y profundizar preguntando varias veces (¿por qué?).
-                    li 
-                      i.fas.fa-angle-right
-                      | Entender las necesidades del usuario.
-            .col-12.col-md-8.col-lg-6.col-xl-6
-                .jumbotron-9.p-5
-                  ul.lista-ul
-                    li 
-                      i.fas.fa-angle-right
-                      | Sentir que se sabe todas las respuestas.          
-                    li 
-                      i.fas.fa-angle-right
-                      | Esperar que el usuario tenga todas las respuestas y soluciones.
-                    li 
-                      i.fas.fa-angle-right
-                      | Los usuarios identifican sus motivaciones, necesidades o frustraciones. 
-                    li 
-                      i.fas.fa-angle-right
-                      | No es un momento para vender, sino para aprender, se recomienda no mencionar las ideas de cómo resolver el problema. 
-                    li 
-                      i.fas.fa-angle-right
-                      | Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
+              .col-10.col-md-8.col-lg-5.col-xl-5
+                  .jumbotron-8.p-5
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-angle-right
+                        | Enfocarse en la necesidad, no en la solución.
+                      li 
+                        i.fas.fa-angle-right
+                        | Tener cuidado con el sesgo de confirmación.
+                      li 
+                        i.fas.fa-angle-right
+                        | El entrevistado no está para validar lo que piensa el entrevistador. El entrevistador está ahí para descubrir una necesidad.
+                      li 
+                        i.fas.fa-angle-right
+                        | Hacer la entrevista en persona y una persona a la vez. Esto te permitirá captar señales de gestos y expresiones faciales. 
+                      li 
+                        i.fas.fa-angle-right
+                        | Hacer preguntas abiertas, que parezca una conversación, esto permite lograr más profundidad en los temas clave y tener nuevos hallazgos. 
+                      li 
+                        i.fas.fa-angle-right
+                        | Propiciar espacios para que los usuarios cuenten una historia.
+                      li 
+                        i.fas.fa-angle-right
+                        | Procura escuchar más de lo que hablas.
+                      li 
+                        i.fas.fa-angle-right
+                        | Seguir su instinto y profundizar preguntando varias veces (¿por qué?).
+                      li 
+                        i.fas.fa-angle-right
+                        | Entender las necesidades del usuario.
+              .col-12.col-md-8.col-lg-5.col-xl-5
+                  .jumbotron-9.p-5
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-angle-right
+                        | Sentir que se sabe todas las respuestas.          
+                      li 
+                        i.fas.fa-angle-right
+                        | Esperar que el usuario tenga todas las respuestas y soluciones.
+                      li 
+                        i.fas.fa-angle-right
+                        | Los usuarios identifican sus motivaciones, necesidades o frustraciones. 
+                      li 
+                        i.fas.fa-angle-right
+                        | No es un momento para vender, sino para aprender, se recomienda no mencionar las ideas de cómo resolver el problema. 
+                      li 
+                        i.fas.fa-angle-right
+                        | Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
 
         
       
@@ -220,14 +226,15 @@
               br
               br
               img(src='@/assets/curso/images/tema3/img_10.svg',alt="", style="width:680px; display:block; margin:auto;")
+          .row.justify-content-center.align-items-center
+            .col-10
+              .jumbotron-7.p-5.mb-5
+                P.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 
 
-            .jumbotron-7.p-5.mb-5
-              P.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 
-
-              p.mb-5 Para crearlos se debe partir de la recolección de información desde lo general a lo particular con el objetivo de definir la esencia y los patrones de conducta del grupo de usuarios que queremos impactar. 
+                p.mb-5 Para crearlos se debe partir de la recolección de información desde lo general a lo particular con el objetivo de definir la esencia y los patrones de conducta del grupo de usuarios que queremos impactar. 
           .jumbotron.mb-3
             .row.justify-content-center.align-items-center.mb-5
-              .col-lg-12.mb-3.mb-lg-0
+              .col-lg-10.mb-3.mb-lg-0
                 .jumbotron-5.p-3.borde-1.mb-5
                   h5.text-center <i>Proceso de creación del arquetipo “de lo general a lo particular”</i>
 
@@ -235,15 +242,17 @@
                 figure
                   img(src='@/assets/curso/images/tema3/img_11.svg', alt="", style="width:580px; display:block; margin:auto;")
               
-              .jumbotron-7.p-5.mb-3
-                P Esta técnica ayuda a los equipos de trabajo a tener una visión de conjunto sobre a quién se están dirigiendo y adecuar el diseño u oferta a los objetivos, motivaciones y comportamiento de los clientes.
+                .jumbotron-7.p-5.mb-3
+                  P Esta técnica ayuda a los equipos de trabajo a tener una visión de conjunto sobre a quién se están dirigiendo y adecuar el diseño u oferta a los objetivos, motivaciones y comportamiento de los clientes.
 
-              .jumbotron-7.p-5.mb-3
-                P Los arquetipos son construidos después de una observación exhaustiva de los clientes del servicio y/o producto, en los que se incluye tanto a los actuales cómo a los potenciales.
+                .jumbotron-7.p-5.mb-3
+                  P Los arquetipos son construidos después de una observación exhaustiva de los clientes del servicio y/o producto, en los que se incluye tanto a los actuales cómo a los potenciales.
 
-              .jumbotron-7.p-5.mb-3
-                P Es una técnica mixta de diseño e investigación utilizada para guiar decisiones en diferentes fases del proyecto; por lo anterior, es importante recalcar que dichos perfiles se basan única y exclusivamente en los resultados de una investigación.  
-
+                .jumbotron-7.p-5.mb-3
+                  P Es una técnica mixta de diseño e investigación utilizada para guiar decisiones en diferentes fases del proyecto; por lo anterior, es importante recalcar que dichos perfiles se basan única y exclusivamente en los resultados de una investigación.  
+    .row.justify-content-center.align-items-center
+      .col-10
+        p.mb-3 Para conocer más sobre la entrevista semiestructurada como herramienta para empatizar, se invita a observar el video que se encuentra en el material complementario.
 </template>
 
 <script>

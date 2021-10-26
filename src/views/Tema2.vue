@@ -183,78 +183,81 @@
                   p.p-4.text-center Abrazar ideas locas, no saltar a conclusiones y adoptar un enfoque experimental.
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center Las ideas locas en el <i>Design Thinking</i> no son un tabú, por el contrario, son incentivadas en las sesiones de ideación. El <i>Design Thinking</i> es sobre explorar lo aparentemente obvio para obtener conocimiento que se encuentran enterrados y probar ideas para ver si funcionan.
-    .cajon.color-custom.p-4.mb-5
-      .row.justify-content-center.mb-3  
-        .col-6 
-          p Para conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
-        .col-6
-          a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank") 
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Metodología <i>Design Thinking</i> – Ejemplos.
+    .row.justify-content-center.align-items-center.p-5.mb-5
+      .col-10 
+        .cajon.color-custom.p-4.mb-5
+          .row.justify-content-center.mb-3  
+            .col-6 
+              p Para conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
+            .col-6
+              a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank") 
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p Metodología <i>Design Thinking</i> – Ejemplos.
 
-    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking</i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+        p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking</i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
 
     LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
+    .row.justify-content-center.align-items-center.p-5.mb-5
+      .col-10 
+        p.mb-5 De acuerdo con la universidad de Stanford, la metodología <i>Design Thinking</i> cuenta con cinco fases que se describen a continuación:
 
-    p.mb-5 De acuerdo con la universidad de Stanford, la metodología <i>Design Thinking</i> cuenta con cinco fases que se describen a continuación:
+        .row.justify-content-center.align-items-center.mb-3
+          .col-auto
+            img(src='@/assets/curso/images/tema2/ico_10.svg' alt="", style="width:120px; display:block; margin:auto;0")
+          .col-8
+            .jumbotron-4.p-4
+              h5 Empatía 
+              p Es la fase inicial, donde se busca entender al usuario y sus necesidades reales.
+        .row.justify-content-center.align-items-center.mb-3
+          .col-auto
+            img(src='@/assets/curso/images/tema2/ico_11.svg' alt="", style="width:120px; display:block; margin:auto;0")
+          .col-8
+            .jumbotron-4.p-4
+              h5 Definición
+              p En esta segunda fase se pretende resumir la información encontrada en la fase anterior para seleccionar el reto a abordar.
+        .row.justify-content-center.align-items-center.mb-3
+          .col-auto
+            img(src='@/assets/curso/images/tema2/ico_12.svg' alt="", style="width:120px; display:block; margin:auto;0")
+          .col-8
+            .jumbotron-4.p-4
+              h5 Ideación
+              p El objetivo principal aquí es realizar procesos de divergencia y convergencia para seleccionar la idea final del proceso.
+        .row.justify-content-center.align-items-center.mb-3
+          .col-auto
+            img(src='@/assets/curso/images/tema2/ico_13.svg' alt="", style="width:120px; display:block; margin:auto;0")
+          .col-8
+            .jumbotron-4.p-4
+              h5 Prototipado
+              p Esta consiste en realizar modelos de validación de baja y media fidelidad a través de técnicas rápidas de visualización.
+        .row.justify-content-center.align-items-center.mb-5
+          .col-auto
+            img(src='@/assets/curso/images/tema2/ico_14.svg' alt="", style="width:120px; display:block; margin:auto;0")
+          .col-8
+            .jumbotron-4.p-4
+              h5 Validación
+              p La última fase de esta metodología consiste en realizar pruebas rápidas de validación con el usuario final para conocer su relación con la solución creada, obtener retroalimentación y las conclusiones del proceso.
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-auto
-        img(src='@/assets/curso/images/tema2/ico_10.svg' alt="", style="width:120px; display:block; margin:auto;0")
-      .col-8
-        .jumbotron-4.p-4
-          h5 Empatía 
-          p Es la fase inicial, donde se busca entender al usuario y sus necesidades reales.
-    .row.justify-content-center.align-items-center.mb-3
-      .col-auto
-        img(src='@/assets/curso/images/tema2/ico_11.svg' alt="", style="width:120px; display:block; margin:auto;0")
-      .col-8
-        .jumbotron-4.p-4
-          h5 Definición
-          p En esta segunda fase se pretende resumir la información encontrada en la fase anterior para seleccionar el reto a abordar.
-    .row.justify-content-center.align-items-center.mb-3
-      .col-auto
-        img(src='@/assets/curso/images/tema2/ico_12.svg' alt="", style="width:120px; display:block; margin:auto;0")
-      .col-8
-        .jumbotron-4.p-4
-          h5 Ideación
-          p El objetivo principal aquí es realizar procesos de divergencia y convergencia para seleccionar la idea final del proceso.
-    .row.justify-content-center.align-items-center.mb-3
-      .col-auto
-        img(src='@/assets/curso/images/tema2/ico_13.svg' alt="", style="width:120px; display:block; margin:auto;0")
-      .col-8
-        .jumbotron-4.p-4
-          h5 Prototipado
-          p Esta consiste en realizar modelos de validación de baja y media fidelidad a través de técnicas rápidas de visualización.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-auto
-        img(src='@/assets/curso/images/tema2/ico_14.svg' alt="", style="width:120px; display:block; margin:auto;0")
-      .col-8
-        .jumbotron-4.p-4
-          h5 Validación
-          p La última fase de esta metodología consiste en realizar pruebas rápidas de validación con el usuario final para conocer su relación con la solución creada, obtener retroalimentación y las conclusiones del proceso.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10.mb-3.mb-lg-0
+          .jumbotron-5.p-3.borde-1
+            h5.text-center Además, la gestión de la innovación puede dividirse en cuatro etapas:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.mb-3.mb-lg-0
-        .jumbotron-5.p-3.borde-1
-          h5.text-center Además, la gestión de la innovación puede dividirse en cuatro etapas:
+      .row.justify-content-center.align-items-center.mb-5
+          .col-auto
+            img(src='@/assets/curso/images/tema2/tj_1.svg' alt="", style="width:200px; display:block; margin:auto;0")
+          .col-auto
+            img(src='@/assets/curso/images/tema2/tj_2.svg' alt="", style="width:200px; display:block; margin:auto;0")
+          .col-auto
+            img(src='@/assets/curso/images/tema2/tj_3.svg' alt="", style="width:200px; display:block; margin:auto;0")
+          .col-auto
+            img(src='@/assets/curso/images/tema2/tj_4.svg' alt="", style="width:200px; display:block; margin:auto;0")
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-auto
-        img(src='@/assets/curso/images/tema2/tj_1.svg' alt="", style="width:200px; display:block; margin:auto;0")
-      .col-auto
-        img(src='@/assets/curso/images/tema2/tj_2.svg' alt="", style="width:200px; display:block; margin:auto;0")
-      .col-auto
-        img(src='@/assets/curso/images/tema2/tj_3.svg' alt="", style="width:200px; display:block; margin:auto;0")
-      .col-auto
-        img(src='@/assets/curso/images/tema2/tj_4.svg' alt="", style="width:200px; display:block; margin:auto;0")
-
-    .row.justify-content-center.align-items-center.mb-3
-      .col-auto
-        img(src='@/assets/curso/images/tema2/img_2.svg' alt="", style="width:880px; display:block; margin:auto;0")
-        figcaption Nota. Modelo de Proceso de Innovación and the Fuzzy Front End 
+      .row.justify-content-center.align-items-center.mb-3
+        .col-auto
+          img(src='@/assets/curso/images/tema2/img_2.svg' alt="", style="width:880px; display:block; margin:auto;0")
+          figcaption Nota. Modelo de Proceso de Innovación and the Fuzzy Front End 
 
 
 
