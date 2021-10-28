@@ -76,27 +76,24 @@
                 .tarjeta.color-infografica.p-3(x="50%" y="24%")
                   .row.justify-content-center.mb-3  
                     .col-8
-                      h5.mb-2 ¿Qué piensa y siente?
                       p Conocer cuáles son las principales inquietudes y aspiraciones del usuario a corto, mediano y largo plazo.
+
                 .tarjeta.color-infografica.p-3(x="65%" y="38%")
                   .row.justify-content-center.mb-3  
                     .col-8
-                      h5.mb-2 ¿Qué ve?
                       p Describir el entorno social de la persona, cómo es y qué imágenes o situaciones se presentan dentro de su cotidianidad.
+
                 .tarjeta.color-infografica.p-3(x="65%" y="62%")
                   .row.justify-content-center.mb-3  
                     .col-8
-                      h5.mb-2 Resultados
                       p Este mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
                 .tarjeta.color-infografica.p-3(x="51%" y="75%")
                   .row.justify-content-center.mb-3  
                     .col-8
-                      h5.mb-2 ¿Qué dice y hace?
                       p  Detallar el discurso de la persona, cómo es su comportamiento y sus prácticas diarias, entender si hay coherencia entre estas dos prácticas para conocer al usuario desde su comportamiento.
                 .tarjeta.color-infografica.p-3(x="36%" y="62%")
                   .row.justify-content-center.mb-3      
                     .col-8
-                      h5.mb-2 Esfuerzos
                       p Luego de responder estas preguntas iniciales, se concluye el mapa de empatía con dos preguntas más: 
                       p ¿CUÁLES SON SUS DOLORES? 
                       p ¿CUÁLES SON SUS NECESIDADES? 
@@ -104,7 +101,6 @@
                 .tarjeta.color-infografica.p-3(x="36%" y="37%")
                   .row.justify-content-center.mb-3  
                     .col-8
-                      h5.mb-2 ¿Qué oye?
                       p Describir los estímulos que escucha el usuario, abarcando su estilo musical, el tipo de noticias, información de familiares, amigos y líderes de opinión que sigue.
           p.text-center Luego de responder estas preguntas iniciales, se concluye el mapa de empatía con dos preguntas más: 
         .row.justify-content-center.align-items-center.mb-3
