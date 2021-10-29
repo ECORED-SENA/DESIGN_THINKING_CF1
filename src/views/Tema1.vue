@@ -67,12 +67,12 @@
             .tarjeta.fondo-2
               .p-4
                 p Según el Manual de Oslo (OCDE, 2005), la innovación se entiende como la concepción e implementación de cambios significativos en el producto, proceso, marketing u organización de la empresa con el propósito de mejorar los resultados y tener la aceptación del mercado.
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mt-5
       .col-10 
         br
         p.my-5 Al hablar de innovación se hace referencia a un proceso dinámico, en el cual se gestionan la incertidumbre y el cambio como una constante en cada uno de los procesos, además del movimiento requerido para que los resultados obtenidos sean sostenibles en el tiempo y generen valor.
 
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-10 
         p.BorTit.mb-5 <b>Figura 2</b>  <br> <i>Seis tipos de innovación</i>
 
