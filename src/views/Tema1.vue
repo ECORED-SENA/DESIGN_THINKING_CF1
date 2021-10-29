@@ -70,16 +70,16 @@
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-10 
         br
-        p.mb-5.mt-5 Al hablar de innovación se hace referencia a un proceso dinámico, en el cual se gestionan la incertidumbre y el cambio como una constante en cada uno de los procesos, además del movimiento requerido para que los resultados obtenidos sean sostenibles en el tiempo y generen valor.
+        p.my-5 Al hablar de innovación se hace referencia a un proceso dinámico, en el cual se gestionan la incertidumbre y el cambio como una constante en cada uno de los procesos, además del movimiento requerido para que los resultados obtenidos sean sostenibles en el tiempo y generen valor.
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-10 
-        p.BorTit.mb-5 <b>Figura 2</b>  Seis tipos de innovación
+        p.BorTit.mb-5 <b>Figura 2</b>  <br> <i>Seis tipos de innovación</i>
 
         .jumbotron.p-5
           .row.justify-content-center.align-items-center.p-5.mb-5
             .col-12
-              img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:800px; display:block; margin:auto;")
+              img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:900px; display:block; margin:auto;")
         figcaption.mb-5 Nota. Adaptada de leanventures.se (2016). 
 
         p.mb-5 Tal como se vio antes, existen múltiples metodologías para implementar la innovación dentro de las organizaciones; a continuación, se enuncian las más conocidas:
