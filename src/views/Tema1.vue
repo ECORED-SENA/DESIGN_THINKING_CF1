@@ -16,24 +16,26 @@
               .bloque-texto-g__img.p-5(style="left: 500px;")(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`}"
               )
               .bloque-texto-g__texto.p-5(style="right: 310px; border-radius: 20px")
-                p.mb-0 Metodologías de innovación promueve también el trabajo en redes que, de manera simultánea, invita a las personas a agregar valor desde sus puestos de trabajo. 
+                h5 Metodologías de innovación #[br]
+                p.mb-0  Promueve también el trabajo en redes que, de manera simultánea, invita a las personas a agregar valor desde sus puestos de trabajo. 
     
         .bloque-texto-g.color-custom.p-3.p-sm-4.p-md-5.mb-5.d-block.d-lg-none
           
           .bloque-texto-g__img.p-5(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`}"
           )
           .bloque-texto-g__texto.p-5(style="border-radius: 20px")
-            p.mb-0 Metodologías de innovación promueve también el trabajo en redes que, de manera simultánea, invita a las personas a agregar valor desde sus puestos de trabajo. 
+            h5 Metodologías de innovación #[br]
+            p.mb-0 Promueve también el trabajo en redes que, de manera simultánea, invita a las personas a agregar valor desde sus puestos de trabajo. 
         p.mb-5 Estas metodologías se dividen en etapas o fases que se componen de un grupo de actividades y herramientas que las personas pueden utilizar para cada momento específico del proceso, sin este ser completamente lineal. En la siguiente figura se puede observar cómo se conectan entre ellas y en qué momento se aplican según el nivel de madurez o necesidad particular de la organización. 
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-10 
-        p.BorTit.mb-5 <b>Figura 1</b> Fases de las metodologías innovadoras
+        p.BorTit <b>Figura 1</b> <br> <i>Fases de las metodologías innovadoras</i>
 
-        .jumbotron.mb-5
+        .jumbotron.mb-2.p-4
           .row.justify-content-center.align-items-center
             .col-10
               img(src='@/assets/curso/images/tema1/img_2.svg' alt="", style="width:800px; display:block; margin:auto 0;")
-          figcaption Nota. Adaptada y traducida de Futurizable (2017).
+        figcaption.mb-5 Nota. Adaptada y traducida de Futurizable (2017).
         .row.justify-content-center.align-items-center
           .col-10
             p.mb-5 Tratar de disminuir el grado de incertidumbre con el que trabajan las organizaciones, especialmente al momento de pensar en lanzar nuevos productos o servicios al mercado, es uno de los principales retos que hoy en día se teme afrontar. Así, la idea de repensar los negocios trae consigo cierta resistencia al cambio, debido a que el ser humano piensa en el presente y actúa basado en lo que ha funcionado en el pasado. Sin embargo, las dinámicas del mercado han obligado a las empresas a cambiar los paradigmas y el status quo con el que venían trabajando. 
@@ -74,11 +76,11 @@
       .col-10 
         p.BorTit.mb-5 <b>Figura 2</b>  Seis tipos de innovación
 
-        .jumbotron.mb-5
+        .jumbotron.p-5
           .row.justify-content-center.align-items-center.p-5.mb-5
             .col-12
               img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:800px; display:block; margin:auto;")
-          figcaption Nota. Adaptada de leanventures.se (2016). 
+        figcaption.mb-5 Nota. Adaptada de leanventures.se (2016). 
 
         p.mb-5 Tal como se vio antes, existen múltiples metodologías para implementar la innovación dentro de las organizaciones; a continuación, se enuncian las más conocidas:
         

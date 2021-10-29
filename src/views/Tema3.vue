@@ -216,7 +216,7 @@
         
       
       .py-4.py-md-5.p-4.elemento-color(titulo="Creación del arquetipo" :icono="require('@/assets/curso/images/tema3/ico_5.svg')")
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center
           .col-md-12
             h5.mb-5.p-3 Creación del arquetipo
               br
@@ -228,10 +228,10 @@
                 P.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 
 
                 p.mb-5 Para crearlos se debe partir de la recolección de información desde lo general a lo particular con el objetivo de definir la esencia y los patrones de conducta del grupo de usuarios que queremos impactar. 
-          .jumbotron.mb-3
-            .row.justify-content-center.align-items-center.mb-5
+          .jumbotron
+            .row.justify-content-center.align-items-center
               .col-lg-10.mb-3.mb-lg-0
-                .jumbotron-5.p-3.borde-1.mb-5
+                .jumbotron-5.p-3.borde-1
                   h5.text-center <i>Proceso de creación del arquetipo “de lo general a lo particular”</i>
 
               .col-md-10.mb-5
@@ -242,9 +242,9 @@
                   P Esta técnica ayuda a los equipos de trabajo a tener una visión de conjunto sobre a quién se están dirigiendo y adecuar el diseño u oferta a los objetivos, motivaciones y comportamiento de los clientes.
 
                 .jumbotron-7.p-5.mb-3
-                  P Los arquetipos son construidos después de una observación exhaustiva de los clientes del servicio y/o producto, en los que se incluye tanto a los actuales cómo a los potenciales.
+                  P <b>Los arquetipos </b> son construidos después de una observación exhaustiva de los clientes del servicio y/o producto, en los que se incluye tanto a los actuales cómo a los potenciales.
 
-                .jumbotron-7.p-5.mb-3
+                .jumbotron-7.p-5
                   P Es una técnica mixta de diseño e investigación utilizada para guiar decisiones en diferentes fases del proyecto; por lo anterior, es importante recalcar que dichos perfiles se basan única y exclusivamente en los resultados de una investigación.  
     .row.justify-content-center.align-items-center
       .col-10
