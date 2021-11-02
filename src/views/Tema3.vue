@@ -10,15 +10,15 @@
     p.mb-3 La fase inicial del <i>Design Thinking</i> busca, a través de diferentes herramientas, entender las necesidades reales en el contexto del usuario para lograr generar soluciones pertinentes y eficientes para el problema planteado.
 
     .row.justify-content-center.align-items-center.p-5
-      .col-10.mb-5
+      .col-12.mb-5
           img(src='@/assets/curso/images/tema3/img_1.svg' alt="", style="width:800px; display:block; margin:auto;")
 
       p Según la Real Academia Española, se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el <i>Design Thinking</i> es la primera fase de la metodología. Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. 
     .row.justify-content-center.align-items-center
-      .col-10 
+      .col-12
         .cajon.color-custom-1.p-4.mb-5
           .row.justify-content-center.mb-3  
-            .col-10
+            .col-12
               p Empatizar requiere habilidades como la escucha activa, recolección de información e interés genuino por el usuario; así como escuchar, observar y preguntar con el propósito de entender, desde los zapatos del usuario, su visión del mundo, sin que lo anterior incite a emitir juicios de valor.
 
     p.mb-5 La posición como investigadores debe ser neutral, lo cual permitirá obtener gran cantidad de información que, posteriormente, se podrá filtrar y analizar. Así, la empatía es el entendimiento del comportamiento del usuario en relación con una problemática real, debe ser un entendimiento profundo y no puede ser superficial, porque es la base y guía para obtener buenos resultados con el proceso.
@@ -54,14 +54,14 @@
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5.p-4.elemento-color(titulo="Mapa de empatía" :icono="require('@/assets/curso/images/tema3/ico_1.svg')")
-        .row.justify-content-center.align-items-center.mt-5.mb-5
+        .row.justify-content-center.align-items-center.mb-5
           h5.mb-5 Mapa de empatía
             br
             br
             .row.justify-content-center.align-items-center
-              .col-10
+              .col-12
                 .cajon.color-custom-1.p-4.mb-3
-                  .col-10
+                  .col-12
                     p Es una herramienta que permite describir al usuario con el que queremos trabajar en nuestro proyecto a través de un lienzo dividido en seis partes, las cuales incluyen diferentes preguntas con el objetivo de visualizar las necesidades del consumidor al ponerse en su lugar e identificar los diferentes elementos que generan respuestas emocionales en él.
             
               p.mb-5 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas: 
@@ -163,9 +163,10 @@
               .jumbotron-7.p-4.mb-5 
                   p.mb-5 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente. 
 
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center.mb-5.d-flex
               .col-10.col-md-8.col-lg-5.col-xl-5
                   .jumbotron-8.p-5
+                    p <b>Se recomienda</b>
                     ul.lista-ul
                       li 
                         i.fas.fa-angle-right
@@ -196,6 +197,7 @@
                         | Entender las necesidades del usuario.
               .col-12.col-md-8.col-lg-5.col-xl-5
                   .jumbotron-9.p-5
+                    p <b>Evitar</b>
                     ul.lista-ul
                       li 
                         i.fas.fa-angle-right
@@ -212,13 +214,13 @@
                       li 
                         i.fas.fa-angle-right
                         | Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
-
+                      
         
       
       .py-4.py-md-5.p-4.elemento-color(titulo="Creación del arquetipo" :icono="require('@/assets/curso/images/tema3/ico_5.svg')")
         .row.justify-content-center.align-items-center
           .col-md-12
-            h5.mb-5.p-3 Creación del arquetipo
+            h5.p-3 Creación del arquetipo
               br
               br
               img(src='@/assets/curso/images/tema3/img_10.svg',alt="", style="width:680px; display:block; margin:auto;")
@@ -226,7 +228,7 @@
             .col-10
               .jumbotron-7.p-5.mb-5
                 P.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 
-
+              .jumbotron-7.p-4.mb-5
                 p.mb-5 Para crearlos se debe partir de la recolección de información desde lo general a lo particular con el objetivo de definir la esencia y los patrones de conducta del grupo de usuarios que queremos impactar. 
           .jumbotron
             .row.justify-content-center.align-items-center

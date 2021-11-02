@@ -183,20 +183,22 @@
                   p.p-4.text-center Abrazar ideas locas, no saltar a conclusiones y adoptar un enfoque experimental.
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-white.text-center Las ideas locas en el <i>Design Thinking</i> no son un tabú, por el contrario, son incentivadas en las sesiones de ideación. El <i>Design Thinking</i> es sobre explorar lo aparentemente obvio para obtener conocimiento que se encuentran enterrados y probar ideas para ver si funcionan.
-    .row.justify-content-center.align-items-center.p-5.mb-5
-      .col-10 
-        .cajon.color-custom.p-4.mb-5
-          .row.justify-content-center.mb-3  
-            .col-6 
-              p Para conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
-            .col-6
+
+        
+    .row.justify-content-center.align-items-center
+      .col-10
+        .cajon.color-custom.p-5.mb-5
+          .row.justify-content-center.align-items-center 
+            .col-lg-7
+              p Conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
+            .col-lg-5.mb-4.mb-lg-0
               a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank") 
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
                   p Metodología <i>Design Thinking</i> – Ejemplos.
 
-        p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking</i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking</i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
 
     LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
     .row.justify-content-center.align-items-center.p-5.mb-5
@@ -255,9 +257,9 @@
             img(src='@/assets/curso/images/tema2/tj_4.svg' alt="", style="width:200px; display:block; margin:auto;0")
 
       .row.justify-content-center.align-items-center.mb-3
-        .col-auto
+        .col-auto.mb-3
           img(src='@/assets/curso/images/tema2/img_2.svg' alt="", style="width:880px; display:block; margin:auto;0")
-          figcaption Nota. Modelo de Proceso de Innovación and the Fuzzy Front End 
+        figcaption Nota. Modelo de Proceso de Innovación and the Fuzzy Front End 
 
 
 

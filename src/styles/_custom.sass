@@ -37,11 +37,10 @@
 .jumbotron-8
 	background-color: #AFE9E8
 	border-radius: .5rem
-	height: 700px
 .jumbotron-9
 	background-color: #C7D3FF
 	border-radius: .5rem
-	height: 700px
+	height: 780px
 .fondo-1
   background-color: #BCE8E7
   margin-top: -215px
@@ -120,6 +119,8 @@
     line-height: 1.2
     margin: 0 0 0.75em
     color: black
+.bg-color
+  background-image: linear-gradient(355deg,  #f1fafe 60%, #F2FAFE 10%, #F1EEFC 100%)
 .color-flip
     background-color: #F6F6F6
 .tarjeta.color-secundario * 
@@ -131,11 +132,11 @@
 	&::before
 	  background-color:  #00BAB5
 .color-custom-2
-	background-color:  #FF9BD4
+	background-color:  #FFB7E0
 	&::before
 	  background-color:  #EE0088
 .color-infografica
-	background-color: #FFFFFF
+	background-color: #FFD400 !important
   border-color: black !important
 	&::before
 	  background-color:  #00BAB5
@@ -188,7 +189,24 @@ figcaption
     border-right: 2px solid #AFAFAF
     border-bottom: 2px solid #AFAFAF
     cursor: pointer
-
+.custom_box_left     
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background-color: #B1ECEB
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -50%
+    width: 50%
+    height: 100%
+    background-color: #B1ECEB
+    z-index: 0
+.onTop
+  position: relative
+  z-index: 10
 
 
 
