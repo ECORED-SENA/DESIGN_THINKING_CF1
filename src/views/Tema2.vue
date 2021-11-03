@@ -7,33 +7,40 @@
         span 2
       h1 <i>Design Thinking</i>
 
-    .row.justify-content-center.align-items-center.p-5.mb-5.img_bomb.d-none.d-lg-block
-      .col-12
-        img(src='@/assets/curso/images/tema2/img_1.svg' alt="", style="width:500px; display:block; margin:auto;")
-    .row.justify-content-center.align-items-center.p-5.mb-5.d-block.d-lg-none
-      .col-12
-        img(src='@/assets/curso/images/tema2/img_1.svg' alt="", style="width:500px; display:block; margin:auto;")
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10.mb-3.mb-lg-0
-        .jumbotron-1.p-5
-          p Es una metodología que promueve la creatividad y generación de ideas de alto valor para el usuario, su objetivo principal es centrarse en la detección de necesidades reales del entorno para obtener soluciones de valor.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.mb-3.mb-lg-0
-        .jumbotron-2.p-4
-          p.mb-2 Puede aplicarse en cualquier sector como herramienta que aborda de manera diferente los problemas o necesidades ubicando como eje central al ser humano.
-      .col-lg-5.mb-3.mb-lg-0
-        .jumbotron-2.p-3
-          p.mb-0 Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
+    .row.justify-content-center.align-items-center
+      .col-lg-8.mb-5.mb-lg-0
+        .row.justify-content-center.align-items-center
+          .jumbotron-10.mb-3
+            .row 
+              .col-2.lg-0.mb-0
+                figure
+                  img.my-4(src='@/assets/curso/images/tema2/ico_17.svg' alt="", style="width:100px; display:block; margin:auto; 0")    
+              .col-9.lg-0.p-1
+                p.p-4 Puede aplicarse en cualquier sector como herramienta que aborda de manera diferente los problemas o necesidades ubicando como eje central al ser humano.
+          .jumbotron-10
+            .row 
+              .col-2.lg-0.mb-0
+                figure
+                  img.my-4(src='@/assets/curso/images/tema2/ico_18.svg' alt="", style="width:100px; display:block; margin:auto; 0")    
+              .col-9.lg-0.p-1
+                p Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: 
+                p.etiqueta--blue la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
+      .col-lg-4.img_bomb.mb-5
+        figure
+          img(src='@/assets/curso/images/tema2/img_1.svg', style='width: 350px').m-auto
 
+    
     p.mb-3 Esta metodología está compuesta por una serie de herramientas que tienen dos características especiales, a saber:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.mb-5.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-4
+      .col-8.col-md-8.col-lg-6
+        img(src="@/assets/curso/images/tema2/img_3.png" alt="", style="width:450px; display:block; margin: 0 auto;")
+      .col-12.col-lg-6
         hr.mt-4.mb-4
         .row.justify-content-center.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/images/tema2/ico_15.svg' alt="", style="width:60px; display:block; margin:auto 0;")    
+              img(src='@/assets/curso/images/tema2/ico_19.svg' alt="", style="width:60px; display:block; margin:auto 0;")    
           .col
             h5 El diseño 
             p.mb-2 El diseño centrado en el usuario que, aunque puede parecer obvio, es una de las principales causas por la cual las empresas no logran conectar con su consumidor, por ejemplo; cuando se llega a una página web, ¿la empresa habla directamente al consumidor y le cuenta cómo puede solucionar su problema? O, por el contrario, tiene una lista de los productos que ofrece para que el usuario se acomode a ellos; así que cuando se  trabaja con <i>Design Thinking</i>,  se busca llegar a un nivel más profundo de comprensión del contexto y del consumidor. 
@@ -41,210 +48,179 @@
         .row.justify-content-center.align-items-center
           .col-auto
             figure
-              img(src='@/assets/curso/images/tema2/ico_16.svg' alt="", style="width:60px; display:block; margin:auto 0;")  
+              img(src='@/assets/curso/images/tema2/ico_20.svg' alt="", style="width:60px; display:block; margin:auto 0;")  
           .col
             h5 El prototipado 
             p El prototipado es una de las últimas fases de esta metodología que permite verificar, rápidamente, si la idea con la que se está trabajando es viable o requiere cambios.
         hr.mt-4.mb-4
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.mb-3.mb-lg-0
-        .jumbotron-3.p-3
-          h5.text-white.text-center Conozcamos los atributos del <i>Design Thinking.</i>
     
-    .row.justify-content-center.mb-3
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-secundario.p-2.d-flex(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_1.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.p-2.text-center.text-small Cuando se está trabajando en un problema, aceptar que las cosas pueden ser poco claras o mal definidas y que las respuestas no pueden ser obvias o conocidas.
-            .tarjeta-flip__contenido.p-5.p-xl-5
-              p.text-white.text-center El <i>Design Thinking</i> con frecuencia se utiliza para enfrentar “problemas perversos”, es decir, aquellos que no tienen una solución fija, que son complejos y llenos de incertidumbre.
-
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-secundario.p-1.d-flex(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_2.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.p-2.text-center En casi todas las etapas del proceso se trabaja junto con colegas y expertos de distintas disciplinas.
-
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center Para resolver problemas complejos y difíciles se requiere un acercamiento multidisciplinar, en los que la combinación de sabiduría de distintas áreas se usa con el propósito de entender en profundidad el problema. 
-
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-secundario.p-2.d-flex(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_3.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.text-center.text-small Construir sobre las ideas de otros durante la ideación en lugar de discutir en contra de una idea, se construye a partir de ella sugiriendo cambios o retoques.
-
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center Las críticas constructivas son muy importantes, son un acercamiento que se enfoca en construir soluciones e involucra la ideación para construir sobre las ideas de otros.  
-    .row.justify-content-center.mb-3
-      .col-sm-6.col-xl-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_4.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_4.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.p-2.text-center Motiva naturalmente a hacer preguntas, aun cuando ya sepa la respuesta. Ser curioso también implica tener una mente fresca de principiante.
-
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center  El comienzo del proceso de <i>Design Thinking</i> siempre involucra un entendimiento profundo del problema. Esto requiere de mucha curiosidad para ir más a fondo. Los insights provienen de sondeos profundos.
     
-      .col-sm-6.col-xl-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_5.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_5.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.p-2.text-center Tener la capacidad de entender las cosas desde la perspectiva del usuario.
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center   El <i>Design Thinking</i> es un enfoque centrado en el usuario para la resolución de problemas. Comienza con un profundo entendimiento de la perspectiva del usuario así como sus emociones y comportamientos.
-      .col-sm-6.col-xl-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_6.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_6.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.p-2.text-center Ser capaz de ver el panorama general y ver una situación o problema desde múltiples ángulos o perspectivas.
+    .row.mb-4
+      .col-8.col-md-8.col-lg-4
+        img(src="@/assets/curso/images/tema2/img_4.svg" alt="", style="width:300px; display:block; margin: 0 auto;")
+      .col-12.col-lg-8
+        p Conozcamos los atributos del <i>Design Thinking.</i>
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row.justify-content-center.align-items-center(titulo="Ambiguo")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Cuando se está trabajando en un problema, aceptar que las cosas pueden ser poco claras o mal definidas y que las respuestas no pueden ser obvias o conocidas.
 
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center  Los problemas complejos requieren perspectivas holísticas. Por lo tanto, se considera toda la cadena de valor y canales de distribución. Cada pequeña parte suma para definir la experiencia de la solución.
-    .row.justify-content-center.mb-5   
-      .col-sm-6.col-xl-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_7.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_7.svg' alt="", style="width:70px; display:block; margin:auto 0;") 
-                .col-12
-                  p.p-2.text-center Es un ciclo con bucles de retroalimentación donde se usa nueva información para mejorar las ideas a través de todo el proceso.
+              p El <i>Design Thinking </i>con frecuencia se utiliza para enfrentar “problemas perversos”, es decir, aquellos que no tienen una solución fija, que son complejos y llenos de incertidumbre..
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_1.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Colaborativo")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p En casi todas las etapas del proceso se trabaja junto con colegas y expertos de distintas disciplinas.
 
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center  Las fases del <i>Design Thinking</i> no son lineales, sino que son modelos de pensamiento que pueden ser usados en un proyecto.
+              p Para resolver problemas complejos y difíciles se requiere un acercamiento multidisciplinar, en los que la combinación de sabiduría de distintas áreas se usa con el propósito de entender en profundidad el problema. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Constructivo")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Construir sobre las ideas de otros durante la ideación en lugar de discutir en contra de una idea, se construye a partir de ella sugiriendo cambios o retoques.
 
-      .col-sm-6.col-xl-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_8.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_8.svg' alt="", style="width:70px; display:block; margin:auto 0;")
-                .col-12
-                  p.p-4.text-center Ser capaz de discutir ideas sin tener juicios sobre ellas.
-                  br
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center  En las fases de ideación de un proyecto de <i>Design Thinking</i> es esencial no permitir que las discusiones se conviertan en discusiones personales. Ninguna idea debe ser descartada, porque incluso las ideas que parezcan no factibles pueden inspirar más ideas y podrían llevar a una solución. 
-      .col-sm-6.col-xl-4
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center.mb-3.p-5.color-flip
-                .col-12.p-4
-                  img.imagenes(src='@/assets/curso/images/tema2/ico_t_9.svg' alt="", style="width:800px; display:block; margin:auto 0;") 
-                .col-auto 
-                  img(src='@/assets/curso/images/tema2/ico_9.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-                .col-12
-                  p.p-4.text-center Abrazar ideas locas, no saltar a conclusiones y adoptar un enfoque experimental.
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-white.text-center Las ideas locas en el <i>Design Thinking</i> no son un tabú, por el contrario, son incentivadas en las sesiones de ideación. El <i>Design Thinking</i> es sobre explorar lo aparentemente obvio para obtener conocimiento que se encuentran enterrados y probar ideas para ver si funcionan.
+              p Las críticas constructivas son muy importantes, son un acercamiento que se enfoca en construir soluciones e involucra la ideación para construir sobre las ideas de otros.  
+            
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_3.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Curioso")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Motiva naturalmente a hacer preguntas, aun cuando ya sepa la respuesta. Ser curioso también implica tener una mente fresca de principiante.
 
-        
-    .row.justify-content-center.align-items-center
-      .col-10
-        .cajon.color-custom.p-5.mb-5
-          .row.justify-content-center.align-items-center 
-            .col-lg-7
-              p Conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
-            .col-lg-5.mb-4.mb-lg-0
-              a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank") 
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p Metodología <i>Design Thinking</i> – Ejemplos.
+              p El comienzo del proceso de <i>Design Thinking</i> siempre involucra un entendimiento profundo del problema. Esto requiere de mucha curiosidad para ir más a fondo. Los insights provienen de sondeos profundos.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_4.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Empático")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Tener la capacidad de entender las cosas desde la perspectiva del usuario.
 
-    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking</i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+              p El <i>Design Thinking</i>es un enfoque centrado en el usuario para la resolución de problemas. Comienza con un profundo entendimiento de la perspectiva del usuario así como sus emociones y comportamientos. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_5.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Holístico")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Ser capaz de ver el panorama general y ver una situación o problema desde múltiples ángulos o perspectivas.
 
-    LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
-    .row.justify-content-center.align-items-center.p-5.mb-5
-      .col-10 
-        p.mb-5 De acuerdo con la universidad de Stanford, la metodología <i>Design Thinking</i> cuenta con cinco fases que se describen a continuación:
+              p Los problemas complejos requieren perspectivas holísticas. Por lo tanto, se considera toda la cadena de valor y canales de distribución. Cada pequeña parte suma para definir la experiencia de la solución.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_6.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Iterativo")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Es un ciclo con bucles de retroalimentación donde se usa nueva información para mejorar las ideas a través de todo el proceso.
 
-        .row.justify-content-center.align-items-center.mb-3
-          .col-auto
-            img(src='@/assets/curso/images/tema2/ico_10.svg' alt="", style="width:120px; display:block; margin:auto;0")
-          .col-8
-            .jumbotron-4.p-4
-              h5 Empatía 
-              p Es la fase inicial, donde se busca entender al usuario y sus necesidades reales.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-auto
-            img(src='@/assets/curso/images/tema2/ico_11.svg' alt="", style="width:120px; display:block; margin:auto;0")
-          .col-8
-            .jumbotron-4.p-4
-              h5 Definición
-              p En esta segunda fase se pretende resumir la información encontrada en la fase anterior para seleccionar el reto a abordar.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-auto
-            img(src='@/assets/curso/images/tema2/ico_12.svg' alt="", style="width:120px; display:block; margin:auto;0")
-          .col-8
-            .jumbotron-4.p-4
-              h5 Ideación
-              p El objetivo principal aquí es realizar procesos de divergencia y convergencia para seleccionar la idea final del proceso.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-auto
-            img(src='@/assets/curso/images/tema2/ico_13.svg' alt="", style="width:120px; display:block; margin:auto;0")
-          .col-8
-            .jumbotron-4.p-4
-              h5 Prototipado
-              p Esta consiste en realizar modelos de validación de baja y media fidelidad a través de técnicas rápidas de visualización.
-        .row.justify-content-center.align-items-center.mb-5
-          .col-auto
-            img(src='@/assets/curso/images/tema2/ico_14.svg' alt="", style="width:120px; display:block; margin:auto;0")
-          .col-8
-            .jumbotron-4.p-4
-              h5 Validación
-              p La última fase de esta metodología consiste en realizar pruebas rápidas de validación con el usuario final para conocer su relación con la solución creada, obtener retroalimentación y las conclusiones del proceso.
+              p Las fases del <i>Design Thinking</i> no son lineales, sino que son modelos de pensamiento que pueden ser usados en un proyecto.
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/images/tema2/ico_7.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="No juzga")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Ser capaz de discutir ideas sin tener juicios sobre ellas. 
 
-      .row.justify-content-center.align-items-center.mb-5
+              p En las fases de ideación de un proyecto de <i>Design Thinking</i> es esencial no permitir que las discusiones se conviertan en discusiones personales. Ninguna idea debe ser descartada, porque incluso las ideas que parezcan no factibles pueden inspirar más ideas y podrían llevar a una solución. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_8.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+          .row.justify-content-center.align-items-center(titulo="Mente abierta")
+            .col-md-6.mb-4.mb-md-0.p-4
+              p Abrazar ideas locas, no saltar a conclusiones y adoptar un enfoque experimental.
+
+              p Las ideas locas en el <i>Design Thinking </i>no son un tabú, por el contrario, son incentivadas en las sesiones de ideación. El Design Thinking es sobre explorar lo aparentemente obvio para obtener conocimiento que se encuentran enterrados y probar ideas para ver si funcionan.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
+
+    .tarjeta.color-primario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/images/tema2/ico_21.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-white Conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
+            .col-sm-auto
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank")
+                span Ver
+                i.fas.fa-file-download
+    LineaTiempoA.color-primario.my-5(:datos="datosLineaTiempoA")
+    
+    .row.align-items-center
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/images/tema2/img_5.png" alt="", style="width:300px; display:block; margin: 0 auto;")
+      .col-lg-8
+        p De acuerdo con la universidad de Stanford, la metodología Design Thinking cuenta con cinco fases que se describen a continuación:
+
+        #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
+          .carousel-indicators
+            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
+          .carousel-inner
+            .carousel-item.active
+              .col-lg-9.col-md-8.mx-auto
+                .row.align-items-center.justify-content-center
+                  .col-lg-2.col-md-3
+                    figure
+                      img(src='@/assets/curso/images/tema2/f_1.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                  .col-7.col-lg-8
+                    h5 Empatía 
+                    p Es la fase inicial, donde se busca entender al usuario y sus necesidades reales.
+            .carousel-item
+              .col-lg-9.col-md-8.mx-auto
+                .row.align-items-center.justify-content-center
+                  .col-lg-2.col-md-3
+                    figure
+                      img(src='@/assets/curso/images/tema2/f_2.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                  .col-7.col-lg-8
+                    h5 Definición
+                    p En esta segunda fase se pretende resumir la información encontrada en la fase anterior para seleccionar el reto a abordar.
+            .carousel-item
+              .col-lg-9.col-md-8.mx-auto
+                .row.align-items-center.justify-content-center
+                  .col-lg-2.col-md-3
+                    figure
+                      img(src='@/assets/curso/images/tema2/f_3.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                  .col-7.col-lg-8
+                    h5 Ideación
+                    p El objetivo principal aquí es realizar procesos de divergencia y convergencia para seleccionar la idea final del proceso.
+            .carousel-item
+              .col-lg-9.col-md-8.mx-auto
+                .row.align-items-center.justify-content-center
+                  .col-lg-2.col-md-3
+                    figure
+                      img(src='@/assets/curso/images/tema2/f_4.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                  .col-7.col-lg-8
+                    p h5 Prototipado
+                    p Esta consiste en realizar modelos de validación de baja y media fidelidad a través de técnicas rápidas de visualización.
+            .carousel-item
+              .col-lg-9.col-md-8.mx-auto
+                .row.align-items-center.justify-content-center
+                  .col-lg-2.col-md-3
+                    figure
+                      img(src='@/assets/curso/images/tema2/f_5.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                  .col-7.col-lg-8
+                    h5 Validación
+                    p La última fase de esta metodología consiste en realizar pruebas rápidas de validación con el usuario final para conocer su relación con la solución creada, obtener retroalimentación y las conclusiones del proceso.
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
+
+      .row.justify-content-center.align-items-center.my-5
         .col-lg-10.mb-3.mb-lg-0
           .jumbotron-5.p-3.borde-1
-            h5.text-center Además, la gestión de la innovación puede dividirse en cuatro etapas:
+            h5.text-center.text-white Además, la gestión de la innovación puede dividirse en cuatro etapas:
 
       .row.justify-content-center.align-items-center.mb-5
           .col-auto
@@ -259,7 +235,7 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-auto.mb-3
           img(src='@/assets/curso/images/tema2/img_2.svg' alt="", style="width:880px; display:block; margin:auto;0")
-        figcaption Nota. Modelo de Proceso de Innovación and the Fuzzy Front End 
+          figcaption.my-3 Nota. Modelo de Proceso de Innovación and the Fuzzy Front End 
 
 
 

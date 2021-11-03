@@ -28,7 +28,7 @@
 	background-color: #F6F6F6
 	border-radius: .3rem
 .jumbotron-5
-	background-color: #7CD9D7
+	background-color: #214BE5
 	border-radius: .3rem
 .jumbotron-6
 	background-color: #FFF3B7
@@ -41,6 +41,9 @@
 	background-color: #C7D3FF
 	border-radius: .5rem
 	height: 780px
+.jumbotron-10
+  background-color: #E3E7F3
+  border-radius: 5rem
 .fondo-1
   background-color: #BCE8E7
   margin-top: -215px
@@ -57,6 +60,20 @@
   background-size: contain
   background-repeat: no-repeat
   background-position: left
+.fondo-5
+  background-image: url("../assets/curso/images/tema1/back_2.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  height: 1200px
+  margin-inline-end: -140px
+  margin-inline-start: -140px
+.margen-image
+  margin-top: -1200px
+.margen-Bor
+  margin-bottom: 250px
+.margin-text
+  margin-top: -940px
 .borde
   border-bottom-left-radius: 20px
   border-bottom-right-radius: 20px
@@ -106,8 +123,8 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    top: 32px;
-    right: 390px;
+    top: 1px;
+    right: 220px;
     background: #ffd400;
     border-radius: 300px;
     opacity: .1;
@@ -131,6 +148,10 @@
 	background-color:  #B1E6E5
 	&::before
 	  background-color:  #00BAB5
+.color-custom-3
+	background-color:  #E4F5F5
+	&::before
+	  background-color:  #00BAB5 
 .color-custom-2
 	background-color:  #FFB7E0
 	&::before
@@ -207,6 +228,49 @@ figcaption
 .onTop
   position: relative
   z-index: 10
+.etiqueta--blue
+  color: #214BE5
+.acordion__accion__btn--a 
+    background-color: #00BAB5
+    box-shadow: 0px 3px 5px 0px rgba(17, 30, 97, 0.3)
+.tarjeta.color-primario 
+    background-color: #00176E
+.boton.color-acento-contenido, .color-acento-contenido.boton--sm 
+    background-color: #FFD400
+.boton.color-acento-contenido:active, .color-acento-contenido.boton--sm:active, .boton.color-acento-contenido:focus, .color-acento-contenido.boton--sm:focus, .boton.color-acento-contenido:hover, .color-acento-contenido.boton--sm:hover 
+    background-color: #FFD400
+.tarjeta 
+    border-radius: 1px
+#carouselExampleIndicators
+  .row
+    padding: 2rem 0 1.5rem 0
+    .col-lg-1
+      &--borde
+        border-right: $color-secundario dashed 2px
+        margin: 1rem
+
+.carousel-inner
+  background-color: #E6F8F8
+  border-radius: 1rem
+
+button.carousel-control-next, button.carousel-control-prev
+  background-color: #0D4AAD !important
+  opacity: 1 !important
+  width: 70px
+
+button.carousel-control-next
+  border-radius: 0 1rem 1rem 0
+  
+button.carousel-control-prev
+  border-radius: 1rem 0 0 1rem
+
+.carousel-indicators
+  [data-bs-target]
+    background-color: $color-primario
+
+
+
+
 
 
 
