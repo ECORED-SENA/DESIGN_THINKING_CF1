@@ -22,9 +22,9 @@
               .col-2.lg-0.mb-0
                 figure
                   img.my-4(src='@/assets/curso/images/tema2/ico_18.svg' alt="", style="width:100px; display:block; margin:auto; 0")    
-              .col-9.lg-0.p-1
-                p Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: 
-                p.etiqueta--blue la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
+              .col-9.lg-0.p-4
+                b-none Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: 
+                b(style="color: #214BE5;") la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
       .col-lg-4.img_bomb.mb-5
         figure
           img(src='@/assets/curso/images/tema2/img_1.svg', style='width: 350px').m-auto
@@ -57,9 +57,9 @@
     
     
     .row.mb-4
-      .col-8.col-md-8.col-lg-4
+      .col-lg-4.d-none.d-lg-block  
         img(src="@/assets/curso/images/tema2/img_4.svg" alt="", style="width:300px; display:block; margin: 0 auto;")
-      .col-12.col-lg-8
+      .col-lg-8
         p Conozcamos los atributos del <i>Design Thinking.</i>
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.justify-content-center.align-items-center(titulo="Ambiguo")

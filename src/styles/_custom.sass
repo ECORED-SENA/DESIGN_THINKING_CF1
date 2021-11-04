@@ -61,15 +61,13 @@
   background-repeat: no-repeat
   background-position: left
 .fondo-5
-  background-image: url("../assets/curso/images/tema1/back_2.svg")
+  background: linear-gradient(175deg, rgba(197,218,244,1) 0%, rgba(229,242,255,1) 72%)
   background-size: cover
   background-repeat: no-repeat
   background-position: center
-  height: 1200px
-  margin-inline-end: -135px
-  margin-inline-start: -135px
+  margin-top: -165px
 .margen-image
-  margin-top: -1200px
+  margin-top: 80px
 .margen-Bor
   margin-bottom: 250px
 .margin-text
@@ -267,6 +265,34 @@ button.carousel-control-prev
 .carousel-indicators
   [data-bs-target]
     background-color: $color-primario
+.linea-tiempo-a__row::after 
+    width: 20px
+    height: 20px
+    background: #FF0092
+.linea-tiempo-a.color-primario .linea-tiempo-a__row::before 
+    background-color: #FFF
+.custom_box_right   
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background-color: #E5F2FF
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: 100%
+    width: 50%
+    height: 100%
+    background-color: #E5F2FF
+    z-index: 0
+
+.alignLeft
+  text-align: left !important
+
+.onTop
+  position: relative
+  z-index: 10
 
 
 
