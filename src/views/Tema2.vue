@@ -199,7 +199,7 @@
                     figure
                       img(src='@/assets/curso/images/tema2/f_4.svg' alt="", style="width:120px; display:block; margin:auto;0")
                   .col-7.col-lg-8
-                    p h5 Prototipado
+                    h5 Prototipado
                     p Esta consiste en realizar modelos de validación de baja y media fidelidad a través de técnicas rápidas de visualización.
             .carousel-item
               .col-lg-9.col-md-8.mx-auto
