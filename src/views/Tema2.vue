@@ -25,7 +25,7 @@
               .col-9.lg-0.p-4
                 b-none Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: 
                 b(style="color: #214BE5;") la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
-      .col-lg-4.img_bomb.mb-5
+      .col-lg-4.img_bomb.d-none.d-lg-block.mb-5
         figure
           img(src='@/assets/curso/images/tema2/img_1.svg', style='width: 350px').m-auto
 
@@ -33,7 +33,7 @@
     p.mb-3 Esta metodología está compuesta por una serie de herramientas que tienen dos características especiales, a saber:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-8.col-md-8.col-lg-6
+      .col-8.col-md-8.col-lg-6(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/img_3.png" alt="", style="width:450px; display:block; margin: 0 auto;")
       .col-12.col-lg-6
         hr.mt-4.mb-4
@@ -53,11 +53,8 @@
             h5 El prototipado 
             p El prototipado es una de las últimas fases de esta metodología que permite verificar, rápidamente, si la idea con la que se está trabajando es viable o requiere cambios.
         hr.mt-4.mb-4
-
-    
-    
     .row.mb-4
-      .col-lg-4.d-none.d-lg-block  
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-right")  
         img(src="@/assets/curso/images/tema2/img_4.svg" alt="", style="width:300px; display:block; margin: 0 auto;")
       .col-lg-8
         p Conozcamos los atributos del <i>Design Thinking.</i>
@@ -151,7 +148,7 @@
     LineaTiempoA.color-primario.my-5(:datos="datosLineaTiempoA")
     
     .row.align-items-center
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right") 
         figure
           img(src="@/assets/curso/images/tema2/img_5.png" alt="", style="width:300px; display:block; margin: 0 auto;")
       .col-lg-8
@@ -170,7 +167,7 @@
                 .row.align-items-center.justify-content-center
                   .col-lg-2.col-md-3
                     figure
-                      img(src='@/assets/curso/images/tema2/f_1.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                      img(src='@/assets/curso/images/tema2/f_2.svg' alt="", style="width:120px; display:block; margin:auto;0")
                   .col-7.col-lg-8
                     h5 Empatía 
                     p Es la fase inicial, donde se busca entender al usuario y sus necesidades reales.
@@ -179,7 +176,7 @@
                 .row.align-items-center.justify-content-center
                   .col-lg-2.col-md-3
                     figure
-                      img(src='@/assets/curso/images/tema2/f_2.svg' alt="", style="width:120px; display:block; margin:auto;0")
+                      img(src='@/assets/curso/images/tema2/f_1.svg' alt="", style="width:120px; display:block; margin:auto;0")
                   .col-7.col-lg-8
                     h5 Definición
                     p En esta segunda fase se pretende resumir la información encontrada en la fase anterior para seleccionar el reto a abordar.
@@ -223,13 +220,13 @@
             h5.text-center.text-white Además, la gestión de la innovación puede dividirse en cuatro etapas:
 
       .row.justify-content-center.align-items-center.mb-5
-          .col-auto
+          .col-auto(data-aos="fade-left")
             img(src='@/assets/curso/images/tema2/tj_1.svg' alt="", style="width:200px; display:block; margin:auto;0")
-          .col-auto
+          .col-auto(data-aos="fade-left")
             img(src='@/assets/curso/images/tema2/tj_2.svg' alt="", style="width:200px; display:block; margin:auto;0")
-          .col-auto
+          .col-auto(data-aos="fade-left")
             img(src='@/assets/curso/images/tema2/tj_3.svg' alt="", style="width:200px; display:block; margin:auto;0")
-          .col-auto
+          .col-auto(data-aos="fade-left")
             img(src='@/assets/curso/images/tema2/tj_4.svg' alt="", style="width:200px; display:block; margin:auto;0")
 
       .row.justify-content-center.align-items-center.mb-3

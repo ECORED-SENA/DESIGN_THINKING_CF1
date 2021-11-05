@@ -38,11 +38,11 @@
           p Tratar de disminuir el grado de incertidumbre con el que trabajan las organizaciones, especialmente al momento de pensar en lanzar nuevos productos o servicios al mercado, es uno de los principales retos que hoy en día se teme afrontar. Así, la idea de repensar los negocios trae consigo cierta resistencia al cambio, debido a que el ser humano piensa en el presente y actúa basado en lo que ha funcionado en el pasado. Sin embargo, las dinámicas del mercado han obligado a las empresas a cambiar los paradigmas y el status quo con el que venían trabajando. 
         b(style="color: #214BE5;")  Concepto de innovación 
         p.mb-3 La innovación es un término que, desde hace algunas décadas, ha permeado el lenguaje organizacional, sin embargo es posible que se tenga una percepción errada del  mismo. Existe un imaginario común al denominar creativo o innovador a productos, personas o servicios que son fuera de lo común, con “ideas locas”, pero que en definitiva pueden referirse a su parte estética o exterior sin tener en cuenta el impacto o beneficio que estos tengan en la sociedad. Es allí donde radica realmente la condición inicial de innovar.
-      .col-8.col-md-8.col-lg-6
+      .col-8.col-md-8.col-lg-6(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-md-8.col-lg-6
+      .col-8.col-md-8.col-lg-6(data-aos="fade-right")
         img(src="@/assets/curso/images/tema1/img_4.png" alt="", style="width:450px; display:block; margin: 0 auto;")
       .col-12.col-lg-6
         .cajon.color-custom-3.p-4.mb-4
@@ -56,14 +56,11 @@
           .col-10 
             p.BorTit  <b>Figura 2</b>  <br> <i>Seis tipos de innovación</i>
               .row.justify-content-center.align-items-center.p-5
-                .col-12.col-lg-10
-                  img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:890px; display:block; margin: auto; 0")
+                .col-12.col-lg-11
+                  img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:1000px; display:block; margin: auto; 0")
 
     .row.fondo-5.p-4
       .col-lg-12.margen-image
-       
-       
-          
         .row.justify-content-center.align-items-center.mb-4.mt-5
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Tal como se vio antes, existen múltiples metodologías para implementar la innovación dentro de las organizaciones; a continuación, se enuncian las más conocidas:
@@ -107,8 +104,7 @@
               b(style="color: #214BE5;") La metodología de Design Thinking es comúnmente utilizada para iniciar procesos de innovación difusos donde el usuario es la principal fuente de información para solucionar problemas reales.
 
           .col-lg-4.mb-4.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_6.svg" alt="", )
-
+            img(src="@/assets/curso/images/tema1/img_6.svg" alt="", )(data-aos="fade-left")
 
 
 
