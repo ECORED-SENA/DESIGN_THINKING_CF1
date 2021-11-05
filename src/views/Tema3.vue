@@ -58,12 +58,6 @@
           p.mb-0 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas:
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/images/tema3/img_15.svg' alt="", style="width:400px; display:block; margin:auto;")
-       
-    p.mb-2(style="color: #214BE5;") <b> Herramientas </b>
-
-    p.mb-3 Existen diferentes herramientas y técnicas para comenzar a empatizar dentro de un proceso de <i> Design Thinking </i>, donde su objetivo principal es sumergir al interesado en información proveniente de diferentes fuentes para entender la realidad del problema identificado en ojos del usuario seleccionado de la manera más genuina posible. Lo anterior con el propósito de consolidar datos verídicos que permitan una toma de decisiones acertada y minimicen la incertidumbre generada en este tipo de procesos.
-
-    p.mb-5 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología <i> Design Thinking </i>, a continuación se profundizará en las más usadas:
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       ImagenInfografica.color-secundario.mb-3
