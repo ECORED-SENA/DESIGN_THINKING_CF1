@@ -209,13 +209,13 @@
           img.my-3(src='@/assets/curso/images/tema3/img_11.svg' alt="", style="width:450px; display:block; margin:auto;")
       .col-lg-6.mb-4.mb-lg-0 
           p.mb-3 Esta técnica ayuda a los equipos de trabajo a tener una visión de conjunto sobre a quién se están dirigiendo y adecuar el diseño u oferta a los objetivos, motivaciones y comportamiento de los clientes.
-
+          p.mb-3
           b(style="color: #214BE5;") Los arquetipos 
           b-none son construidos después de una observación exhaustiva de los clientes del servicio y/o producto, en los que se incluye tanto a los actuales cómo a los potenciales.
 
-          p.my-3 Es una técnica mixta de diseño e investigación utilizada para guiar decisiones en diferentes fases del proyecto; por lo anterior, es importante recalcar que dichos perfiles se basan única y exclusivamente en los resultados de una investigación.  
+          p.mb-3 Es una técnica mixta de diseño e investigación utilizada para guiar decisiones en diferentes fases del proyecto; por lo anterior, es importante recalcar que dichos perfiles se basan única y exclusivamente en los resultados de una investigación.  
 
-    .tarjeta.color-primario.p-3.mb-5
+    .tarjeta.color-primario.p-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/images/tema2/ico_21.svg")

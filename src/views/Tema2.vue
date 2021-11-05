@@ -11,17 +11,17 @@
       .col-lg-8.mb-5.mb-lg-0
         .row.justify-content-center.align-items-center
           .jumbotron-10.mb-3
-            .row 
+            .row.align-items-center 
               .col-2.lg-0.mb-0
                 figure
-                  img.my-4(src='@/assets/curso/images/tema2/ico_17.svg' alt="", style="width:100px; display:block; margin:auto; 0")    
+                  img(src='@/assets/curso/images/tema2/ico_17.svg' alt="",)    
               .col-9.lg-0.p-1
                 p.p-4 Puede aplicarse en cualquier sector como herramienta que aborda de manera diferente los problemas o necesidades ubicando como eje central al ser humano.
           .jumbotron-10
-            .row 
+            .row.align-items-center  
               .col-2.lg-0.mb-0
                 figure
-                  img.my-4(src='@/assets/curso/images/tema2/ico_18.svg' alt="", style="width:100px; display:block; margin:auto; 0")    
+                  img(src='@/assets/curso/images/tema2/ico_18.svg' alt="",)    
               .col-9.lg-0.p-4
                 b-none Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: 
                 b(style="color: #214BE5;") la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
