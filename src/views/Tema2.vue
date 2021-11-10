@@ -24,7 +24,8 @@
                   img(src='@/assets/curso/images/tema2/ico_18.svg' alt="",)    
               .col-9.lg-0.p-4
                 b-none Propone articular tres ejes clave en el desarrollo de los proyectos de innovación, estos son: 
-                b(style="color: #214BE5;") la tecnología, el modelo de negocio y el ser humano; y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
+                b(style="color: #214BE5;") la tecnología, el modelo de negocio y el ser humano; 
+                b-none y puede ser utilizada para la creación o mejora de nuevos productos o servicios.
       .col-lg-4.img_bomb.d-none.d-lg-block.mb-5
         figure
           img(src='@/assets/curso/images/tema2/img_1.svg', style='width: 350px').m-auto
@@ -37,15 +38,15 @@
         img(src="@/assets/curso/images/tema2/img_3.png" alt="", style="width:450px; display:block; margin: 0 auto;")
       .col-12.col-lg-6
         hr.mt-4.mb-4
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center
           .col-auto
             figure
               img(src='@/assets/curso/images/tema2/ico_19.svg' alt="", style="width:60px; display:block; margin:auto 0;")    
           .col
             h5 El diseño 
-            p.mb-2 El diseño centrado en el usuario que, aunque puede parecer obvio, es una de las principales causas por la cual las empresas no logran conectar con su consumidor, por ejemplo; cuando se llega a una página web, ¿la empresa habla directamente al consumidor y le cuenta cómo puede solucionar su problema? O, por el contrario, tiene una lista de los productos que ofrece para que el usuario se acomode a ellos; así que cuando se  trabaja con <i>Design Thinking</i>,  se busca llegar a un nivel más profundo de comprensión del contexto y del consumidor. 
+            p.mb-2 El diseño centrado en el usuario que, aunque puede parecer obvio, es una de las principales causas por la cual las empresas no logran conectar con su consumidor, por ejemplo; cuando se llega a una página <i>web</i>, ¿la empresa habla directamente al consumidor y le cuenta cómo puede solucionar su problema? O, por el contrario, tiene una lista de los productos que ofrece para que el usuario se acomode a ellos; así que cuando se  trabaja con <i>Design Thinking</i>,  se busca llegar a un nivel más profundo de comprensión del contexto y del consumidor. 
         hr.mt-4.mb-4
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center
           .col-auto
             figure
               img(src='@/assets/curso/images/tema2/ico_20.svg' alt="", style="width:60px; display:block; margin:auto 0;")  
@@ -88,7 +89,7 @@
             .col-md-6.mb-4.mb-md-0.p-4
               p Motiva naturalmente a hacer preguntas, aun cuando ya sepa la respuesta. Ser curioso también implica tener una mente fresca de principiante.
 
-              p El comienzo del proceso de <i>Design Thinking</i> siempre involucra un entendimiento profundo del problema. Esto requiere de mucha curiosidad para ir más a fondo. Los insights provienen de sondeos profundos.
+              p El comienzo del proceso de <i>Design Thinking</i> siempre involucra un entendimiento profundo del problema. Esto requiere de mucha curiosidad para ir más a fondo. Los <i>insights</i> provienen de sondeos profundos.
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema2/ico_4.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
@@ -128,12 +129,12 @@
             .col-md-6.mb-4.mb-md-0.p-4
               p Abrazar ideas locas, no saltar a conclusiones y adoptar un enfoque experimental.
 
-              p Las ideas locas en el <i>Design Thinking </i>no son un tabú, por el contrario, son incentivadas en las sesiones de ideación. El Design Thinking es sobre explorar lo aparentemente obvio para obtener conocimiento que se encuentran enterrados y probar ideas para ver si funcionan.
+              p Las ideas locas en el <i> Design Thinking </i> no son un tabú, por el contrario, son incentivadas en las sesiones de ideación. <i> El Design Thinking </i> es sobre explorar lo aparentemente obvio para obtener conocimiento que se encuentran enterrados y probar ideas para ver si funcionan.
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
 
-    .tarjeta.color-primario.p-3.mb-5
+    .tarjeta.color-primario.p-3.mb-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/images/tema2/ico_21.svg")
@@ -145,6 +146,9 @@
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank")
                 span Ver
                 i.fas.fa-file-download
+
+    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del Design Thinking, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+
     LineaTiempoA.color-primario.my-5(:datos="datosLineaTiempoA")
     
     .row.align-items-center
@@ -152,7 +156,7 @@
         figure
           img(src="@/assets/curso/images/tema2/img_5.png" alt="", style="width:300px; display:block; margin: 0 auto;")
       .col-lg-8
-        p De acuerdo con la universidad de Stanford, la metodología Design Thinking cuenta con cinco fases que se describen a continuación:
+        p De acuerdo con la universidad de Stanford, la metodología <i>Design Thinking </i>cuenta con cinco fases que se describen a continuación:
 
         #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
           .carousel-indicators
@@ -263,19 +267,19 @@ export default {
         ano: '1969',
         titulo: '',
         texto:
-          'El concepto de <i> Design Thinking </i> fue creado por Herbert Simon, Premio Nobel de Economía, quien escribió el libro Ciencia humana; el término “pensamiento de diseño” se acuñó por primera vez en este libro.',
+          'El concepto de <i> Design Thinking </i> fue creado por <i> Herbert Simon </i>, Premio Nobel de Economía, quien escribió el libro Ciencia humana; el término “pensamiento de diseño” se acuñó por primera vez en este libro.',
       },
       {
         ano: '1970',
         titulo: '',
         texto:
-          'A partir de esta década, comenzó a desarrollarse teóricamente esta metodología en la Universidad de Stanford en California (EE. UU.). ',
+          'A partir de esta década, comenzó a desarrollarse teóricamente esta metodología en la Universidad de <i>Stanford </i> en California (EE. UU.). ',
       },
       {
         ano: '2008',
         titulo: '',
         texto:
-          'La metodología que conocemos hoy es el resultado del trabajo de Tim Brown, cuando escribió un tratado en Harvard Business Review en el que desarrolló una metodología iniciada por Herbert Simons, llamada <i>Design Thinking</i> "Contemplation", este artículo marca el inicio del uso del <i>Design Thinking</i> como una gran técnica de innovación.',
+          'La metodología que conocemos hoy es el resultado del trabajo de <i>Tim Brown</i>, cuando escribió un tratado en <i>Harvard Business Review </i> en el que desarrolló una metodología iniciada por <i> Herbert Simons </i>, llamada <i>Design Thinking</i> "Contemplation", este artículo marca el inicio del uso del <i>Design Thinking</i> como una gran técnica de innovación.',
       },
     ],
   }),

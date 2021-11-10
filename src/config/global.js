@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Conceptos de Innovación y caracterización de usuario',
     descripcionCurso:
-      'Existen diferentes tipos de metodologías de innovación, por tanto entender la definición de innovación y su relación con el design thinking es primordial para comenzar el proceso formativo, además de contextualizar sobre la importancia del desarrollo de la empatía como habilidad blanda fundamental para abordar estos procesos que se centran netamente en las necesidades de los usuarios..',
+      'Existen diferentes tipos de metodologías de innovación, por tanto entender la definición de innovación y su relación con el <i>design thinking</i> es primordial para comenzar el proceso formativo, además de contextualizar sobre la importancia del desarrollo de la empatía como habilidad blanda fundamental para abordar estos procesos que se centran netamente en las necesidades de los usuarios.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
   },
@@ -130,12 +130,14 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Design Thinking',
+      texto:
+        'Design Thinking España. (2020). Metodología Design Thinking. Ejemplos. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=_ul3wfKss58&t=314s',
     },
     {
-      texto: 'Fase de empatía',
+      texto:
+        'Bedolla, K. (2017). Entrevista semiestructurada.  [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IWLZwLN96O8',
     },

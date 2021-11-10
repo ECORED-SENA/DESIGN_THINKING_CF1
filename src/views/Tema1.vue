@@ -34,8 +34,8 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-6
-        .cajon.color-primario.p-4.mb-4
-          p Tratar de disminuir el grado de incertidumbre con el que trabajan las organizaciones, especialmente al momento de pensar en lanzar nuevos productos o servicios al mercado, es uno de los principales retos que hoy en día se teme afrontar. Así, la idea de repensar los negocios trae consigo cierta resistencia al cambio, debido a que el ser humano piensa en el presente y actúa basado en lo que ha funcionado en el pasado. Sin embargo, las dinámicas del mercado han obligado a las empresas a cambiar los paradigmas y el status quo con el que venían trabajando. 
+        .cajon.color-custom-4.p-4.mb-4
+          p Tratar de disminuir el grado de incertidumbre con el que trabajan las organizaciones, especialmente al momento de pensar en lanzar nuevos productos o servicios al mercado, es uno de los principales retos que hoy en día se teme afrontar. Así, la idea de repensar los negocios trae consigo cierta resistencia al cambio, debido a que el ser humano piensa en el presente y actúa basado en lo que ha funcionado en el pasado. Sin embargo, las dinámicas del mercado han obligado a las empresas a cambiar los paradigmas y el <i>status quo</i> con el que venían trabajando. 
         b(style="color: #214BE5;")  Concepto de innovación 
         p.mb-3 La innovación es un término que, desde hace algunas décadas, ha permeado el lenguaje organizacional, sin embargo es posible que se tenga una percepción errada del  mismo. Existe un imaginario común al denominar creativo o innovador a productos, personas o servicios que son fuera de lo común, con “ideas locas”, pero que en definitiva pueden referirse a su parte estética o exterior sin tener en cuenta el impacto o beneficio que estos tengan en la sociedad. Es allí donde radica realmente la condición inicial de innovar.
       .col-8.col-md-8.col-lg-6(data-aos="fade-left")
@@ -48,16 +48,16 @@
         .cajon.color-custom-3.p-4.mb-4
           b-none Según el <i>Manual de Oslo</i> (OCDE, 2005), 
           b(style="color: #214BE5;") la innovación 
-          b-none  se entiende como la concepción e implementación de cambios significativos en el producto, proceso, marketing u organización de la empresa con el propósito de mejorar los resultados y tener la aceptación del mercado.  
+          b-none  se entiende como la concepción e implementación de cambios significativos en el producto, proceso, <i>marketing</i> u organización de la empresa con el propósito de mejorar los resultados y tener la aceptación del mercado.  
         
         p.mb-3 Al hablar de innovación se hace referencia a un proceso dinámico, en el cual se gestionan la incertidumbre y el cambio como una constante en cada uno de los procesos, además del movimiento requerido para que los resultados obtenidos sean sostenibles en el tiempo y generen valor.
 
     .row.justify-content-center.align-items-center
-          .col-10 
-            p.BorTit  <b>Figura 2</b>  <br> <i>Seis tipos de innovación</i>
-              .row.justify-content-center.align-items-center.p-5
-                .col-12.col-lg-11
-                  img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:1000px; display:block; margin: auto; 0")
+      .col-12
+        p.BorTit  <b>Figura 2</b>  <br> <i>Seis tipos de innovación</i>
+          .row.justify-content-center.align-items-center.p-5
+            .col-12.col-lg-11
+              img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:1000px; display:block; margin: auto; 0")
 
     .row.fondo-5.p-4
       .col-lg-12.margen-image
@@ -69,39 +69,39 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right
-                    | Lean StartUp.
+                    | <i>Lean StartUp.</i>
                   li 
                     i.fas.fa-angle-right
-                    | Agile.
+                    | <i>Agile.</i>
                   li 
                     i.fas.fa-angle-right
-                    | Design Sprint.
+                    | <i>Design Sprint.</i>
                   li    
                     i.fas.fa-angle-right
-                    | SCRUM.
+                    | <i>SCRUM.</i>
                   li 
                     i.fas.fa-angle-right
-                    | Kanban.
+                    | <i>Kanban.</i>
               .col-6 
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right
-                    | Kaizen.
+                    | <i>Kaizen.</i>
                   li 
                     i.fas.fa-angle-right
-                    | Jobs to be done JTBD.
+                    | <i>Jobs to be done JTBD.</i>
                   li 
                     i.fas.fa-angle-right
-                    |  OKR.
+                    |  <i>OKR.</i>
                   li    
                     i.fas.fa-angle-right
-                    | Teoría U.
+                    | <i>Teoría U.</i>
                   li 
                     i.fas.fa-angle-right
-                    | Forth Innovation Method.
+                    | <i>Forth Innovation Method.</i>
             p.mb-0
               b-none Cada una de estas metodologías proveen herramientas para gestionar procesos de innovación, aportan agilidad y ritmo a los procesos reduciendo el tiempo de desarrollo dando la oportunidad de mantenerse competitivas a las empresas que trabajan con ellas; para comenzar, es importante tener muy clara la necesidad que tiene la organización de innovar y cómo esta se alinea con los objetivos estratégicos de la misma; también es importante determinar el tipo de organización a la cual se pertenece o se quiere impactar. 
-              b(style="color: #214BE5;") La metodología de Design Thinking es comúnmente utilizada para iniciar procesos de innovación difusos donde el usuario es la principal fuente de información para solucionar problemas reales.
+              b(style="color: #214BE5;") La metodología de <i>Design Thinking</i> es comúnmente utilizada para iniciar procesos de innovación difusos donde el usuario es la principal fuente de información para solucionar problemas reales.
 
           .col-lg-4.mb-4.mb-lg-0
             img(src="@/assets/curso/images/tema1/img_6.svg" alt="", )(data-aos="fade-left")
@@ -114,7 +114,7 @@
 
 
 
-
+    Muestras
 
     
 </template>

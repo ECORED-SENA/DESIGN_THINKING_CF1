@@ -13,14 +13,14 @@
           b-none Según la Real Academia Española,
           b(style="color: #214BE5;")  se entiende como empatía la capacidad de identificarse con alguien y compartir sus sentimientos; para el Design Thinking es la primera fase de la metodología. 
           b-none Sin embargo, antes de comenzar la fase de empatizar, es necesario saber cuál es el reto o situación que se quiere intervenir con las herramientas que presenta la metodología y, posteriormente, comenzar con el proceso de empatizar, donde se busca entender por qué las personas hacen lo que hacen o piensan lo que piensan. <b> Es una fase de pensamientos expansivos y divergentes, donde se debe ubicar en una postura de aprendiz/observador, practicar la capacidad de asombro y dejarse sorprender por lo conocido. </b>
-          .cajon.color-primario.p-4.my-4
+          .cajon.color-custom-4.p-4.my-4
             p Empatizar requiere habilidades como la escucha activa, recolección de información e interés genuino por el usuario; así como escuchar, observar y preguntar con el propósito de entender, desde los zapatos del usuario, su visión del mundo, sin que lo anterior incite a emitir juicios de valor. 
       .col-8.col-md-8.col-lg-6(data-aos="fade-left")
         img(src="@/assets/curso/images/tema3/img_1.svg" alt="", style="width:800px; display:block; margin: 0 auto;")
 
     p.mb-5 La posición como investigadores debe ser neutral, lo cual permitirá obtener gran cantidad de información que, posteriormente, se podrá filtrar y analizar. Así, la empatía es el entendimiento del comportamiento del usuario en relación con una problemática real, debe ser un entendimiento profundo y no puede ser superficial, porque es la base y guía para obtener buenos resultados con el proceso.
 
-    h5 Proceso de empatía
+    h3 Proceso de empatía
 
     .row.justify-content-center.align-items-center.mt-5.mb-3
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -28,11 +28,11 @@
       .col-lg-7.mb-4.mb-lg-0
         b(style="color: #214BE5;") Proceso de empatía
         .cajon-b.color-primario.p-3.mb-3
-          p.mb-0 Para comenzar el proceso de empatizar, se debe tener claramente identificado el problema y quiénes son los posibles usuarios implicados en el mismo. A partir de esto se puede comenzar a aplicar las diferentes herramientas que se conocen como lienzos, sobre los cuales reposa información para fomentar la participación activa de las personas que van a intentar resolver el problema. 
+          p.mb-3 Para comenzar el proceso de empatizar, se debe tener claramente identificado el problema y quiénes son los posibles usuarios implicados en el mismo. A partir de esto se puede comenzar a aplicar las diferentes herramientas que se conocen como lienzos, sobre los cuales reposa información para fomentar la participación activa de las personas que van a intentar resolver el problema. 
           b-none Se recomienda que todo el proceso se realice con el usuario implicado, sin embargo, cuando no se tiene acceso directo a él, los equipos de trabajo de las organizaciones pueden tratar de construir perfiles ficticios bajo los cuales trabajar, teniendo en cuenta los parámetros recolectados reales. 
           b(style="color: #00BAB5;") Es de recordar que cada una de las personas que conforman la organización ha recolectado experiencias y problemáticas del cliente que nutrirán el proceso desde diferentes perspectivas. 
       
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg.order-2.order-lg-1
         .custom_box_right    
           p.mb-0 Es importante aclarar que este proceso puede tener diferentes objetivos según la necesidad de la organización, debido a que puede ser aplicado tanto para fines comerciales como para solucionar problemas internos de la misma. 
@@ -42,7 +42,7 @@
 
     .row.justify-content-center.align-items-center
       .col-12.col-lg-5(data-aos="fade-right")
-        img.my-5(src='@/assets/curso/images/tema3/img_14.svg' alt="", style="width:450px; display:block; margin:auto;")
+        img.my-3(src='@/assets/curso/images/tema3/img_14.svg' alt="", style="width:450px; display:block; margin:auto;")
       .col-12.col-lg-7
         p.mb-2(style="color: #214BE5;") <b> Herramientas </b>
        
@@ -50,49 +50,48 @@
 
     p.mb-3 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología Design Thinking, a continuación se profundizará en las más usadas:
 
+    h3 Técnicas para desarrollar procesos de empatía
+
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-lg-7.mb-4.mb-lg-0
-        p.mb-2(style="color: #214BE5;") <b> Mapa de empatía </b>
+        p.mb-2(style="color: #214BE5;") <b> 1. Mapa de empatía </b>
           p.mb-3 Es una herramienta que permite describir al usuario con el que queremos trabajar en nuestro proyecto a través de un lienzo dividido en seis partes, las cuales incluyen diferentes preguntas con el objetivo de visualizar las necesidades del consumidor al ponerse en su lugar e identificar los diferentes elementos que generan respuestas emocionales en él. 
         .cajon.color-custom-1.p-3.mb-3
           p.mb-0 Para realizar el mapa de empatía debemos seleccionar cuál es el grupo de usuarios que queremos impactar con nuestro proyecto y reconocer sus características más importantes, luego de esto es importante responder las siguientes preguntas:
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/images/tema3/img_15.svg' alt="", style="width:400px; display:block; margin:auto;")
 
+    .titulo-quinto.color-acento-contenido
+      h4 Fases de la empatía
+
     .row.justify-content-center.align-items-center.mt-5.mb-5
       ImagenInfografica.color-secundario.mb-3
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/images/tema3/img_5.svg',  alt="", style="width:900px; display:block; margin:auto;")
+            img(src='@/assets/curso/images/tema3/img_5.svg',  alt="",)
             
 
-        .tarjeta.color-infografica.p-3(x="51%" y="20%")
+        .tarjeta.color-infografica.p-3(x="51%" y="19%")
           .row.justify-content-center.mb-3  
             .col-8
               p Conocer cuáles son las principales inquietudes y aspiraciones del usuario a corto, mediano y largo plazo.
 
-        .tarjeta.color-infografica.p-3(x="64%" y="39%")
+        .tarjeta.color-infografica.p-3(x="66%" y="38%")
           .row.justify-content-center.mb-3  
             .col-8
               p Describir el entorno social de la persona, cómo es y qué imágenes o situaciones se presentan dentro de su cotidianidad.
 
-        .tarjeta.color-infografica.p-3(x="54%" y="92%")
+        .tarjeta.color-infografica.p-3(x="53%" y="92%")
           .row.justify-content-center.mb-3  
             .col-8
               p Este mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
-        .tarjeta.color-infografica.p-3(x="19%" y="92%")
-          .row.justify-content-center.mb-3  
-            .col-8
-              p  Luego de responder estas preguntas iniciales, se concluye el mapa de empatía con dos preguntas más:
-          .row.justify-content-center.align-items-center
-              p.mb-3 ¿CUÁLES SON SUS DOLORES?
-              p ¿CUÁLES SON SUS NECESIDADES?
-        .tarjeta.color-infografica.p-3(x="51%" y="59%")
+        
+        .tarjeta.color-infografica.p-3(x="50%" y="58%")
           .row.justify-content-center.mb-3      
             .col-8
               p Detallar el discurso de la persona, cómo es su comportamiento y sus prácticas diarias, entender si hay coherencia entre estas dos prácticas para conocer al usuario desde su comportamiento.
 
-        .tarjeta.color-infografica.p-3(x="37%" y="40%")
+        .tarjeta.color-infografica.p-3(x="35%" y="38%")
           .row.justify-content-center.mb-3  
             .col-8
               p Describir los estímulos que escucha el usuario, abarcando su estilo musical, el tipo de noticias, información de familiares, amigos y líderes de opinión que sigue.
@@ -108,26 +107,31 @@
               img(src='@/assets/curso/images/tema3/ico_12.svg' alt="", style="width:300px; display:block; margin:auto;")
       
 
-    .row.fondo-6.p-4  
+    .row.fondo-6.p-4
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-md-8.mb-3.col-lg-6(data-aos="fade-right")
           img(src="@/assets/curso/images/tema3/img_16.png" alt="", style="width:450px; display:block; margin: 0 auto;")
         .col-12.col-lg-6
-            p.mb-2(style="color: #214BE5;") Mapa de travesía del usuario
+            p.mb-2(style="color: #214BE5;") <b> 2. Mapa de travesía del usuario </b>
             p.mb-3 Esta herramienta es muy utilizada para el diseño de servicios ya que permite tener una visión gráfica sobre el proceso que atraviesa un usuario al acceder a un producto o servicio. 
             .cajon.color-custom-1.p-4.mb-4
               p En él se rastrean y describen las experiencias del cliente a través de los puntos de contacto que ofrecen los servicios y, así, comprender  las emociones que surgen en los clientes y entender su interacción con nuestro producto o servicio. 
-        .row.justify-content-center.align-items-center.p-5
-          .col-12
-            img(src='@/assets/curso/images/tema3/img_6.svg' alt="", style="width:800px; display:block; margin:auto;")
 
-        p.mb-0 Al aplicar esta herramienta podremos identificar oportunidades de mejora o también podrán surgir nuevas ideas de productos o servicios para suplir necesidades que aún no han sido satisfechas para el usuario. 
+      .row.justify-content-center.align-items-center.p-2
+        .col-4.sm-12-md-12-lg-4.xl-4
+          h3 Mapa de travesía del usuario
+
+      .row.justify-content-center.align-items-center.p-4
+        .col-12
+          img(src='@/assets/curso/images/tema3/img_6.svg' alt="", style="width:800px; display:block; margin:auto;")
+
+      p.mb-0 Al aplicar esta herramienta podremos identificar oportunidades de mejora o también podrán surgir nuevas ideas de productos o servicios para suplir necesidades que aún no han sido satisfechas para el usuario. 
     .row.fondo-7.p-4  
-      .row.justify-content-center.align-items-center.mt-5.mb-5
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
-          p.mb-2(style="color: #214BE5;") <b> Un día en la vida de… </b>
+          p.mb-2(style="color: #214BE5;") <b> 3. Un día en la vida de… </b>
             p.mb-3 Esta técnica hace parte de una serie de métodos de investigación que buscan entender mejor las actividades que realiza el usuario, los problemas a los cuales se enfrenta y los productos o artefactos con los que interactúa durante un periodo de tiempo previamente determinado. Se utiliza para identificar los niveles emocionales de las interacciones del usuario y determinar en qué puntos del proceso se puede intervenir desde el diseño de soluciones. 
-          .cajon.color-custom-1.p-4.mb-3
+          .cajon.color-custom-5.p-4.mb-3
             p.mb-0 Al utilizar esta técnica es importante registrar la mayor cantidad de información posible y puede ser mezclada con otras herramientas como entrevistas semidirigidas a los usuarios en observación. Existen diversas formas de enfocar las preguntas de acuerdo con la cronología y las situaciones (en el trabajo, en casa). Estas situaciones funcionan como escenarios en los que el actor principal es el entrevistado. Son cuatro: actividades y ocupaciones, lugares, gente alrededor y preocupaciones.
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
             img(src='@/assets/curso/images/tema3/img_8.svg' alt="", style="width:300px; display:block; margin:auto;")
@@ -136,7 +140,7 @@
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/images/tema3/img_9.svg' alt="", style="width:450px; display:block; margin:auto;")
       .col-lg-7.mb-4.mb-lg-0
-        p.mb-2(style="color: #214BE5;") <b> Entrevistas semiestructuradas </b>
+        p.mb-2(style="color: #214BE5;") <b> 4. Entrevistas semiestructuradas </b>
           p.mb-3 Es una técnica de investigación cualitativa que se utiliza para recolectar información de usuarios que permite entender con mayor grado de detalle, percepciones, motivaciones, y frustraciones alrededor de una situación en particular. En este tipo de entrevista es importante tener claros los objetivos de la misma para guiar la conversación y enfocar la atención en los temas principales, además de profundizar y descubrir aspectos relevantes.
 
           p.mb-0 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente.
@@ -174,7 +178,7 @@
                   i.fas.fa-angle-right
                   p.text-white Entender las necesidades del usuario.
         .col-md.tarjeta.sp2.p-5
-          .row.justify-content-center.mb-4
+          .row.justify-content-center
             .h2.text-center <b> Evitar </b>
               br
               ul.lista-ul
@@ -194,7 +198,7 @@
                   i.fas.fa-angle-right
                   p.text-white Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
 
-    .row.justify-content-center.align-items-center.mt-5.mb-5
+    .row.justify-content-center.align-items-center.my-3
       .col-lg-7.mb-4.mb-lg-0
         p.mb-2(style="color: #214BE5;") <b> Creación del arquetipo </b>
           p.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 
