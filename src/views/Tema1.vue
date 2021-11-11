@@ -20,7 +20,7 @@
               p.mb-0 Promueve también el trabajo en redes que, de manera simultánea, invita a las personas a agregar valor desde sus puestos de trabajo. 
     
         p.mb-5 Estas metodologías se dividen en etapas o fases que se componen de un grupo de actividades y herramientas que las personas pueden utilizar para cada momento específico del proceso, sin este ser completamente lineal. En la siguiente figura se puede observar cómo se conectan entre ellas y en qué momento se aplican según el nivel de madurez o necesidad particular de la organización. 
-        
+
     .row.justify-content-center.mb-3
       .col-10
         .titulo-sexto.color-acento-contenido
@@ -69,7 +69,7 @@
 
     .row.fondo-5.p-4
       .col-lg-12.margen-image
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Tal como se vio antes, existen múltiples metodologías para implementar la innovación dentro de las organizaciones; a continuación, se enuncian las más conocidas:
             .row.justify-content-center.align-items-center 
@@ -111,7 +111,7 @@
               b-none Cada una de estas metodologías proveen herramientas para gestionar procesos de innovación, aportan agilidad y ritmo a los procesos reduciendo el tiempo de desarrollo dando la oportunidad de mantenerse competitivas a las empresas que trabajan con ellas; para comenzar, es importante tener muy clara la necesidad que tiene la organización de innovar y cómo esta se alinea con los objetivos estratégicos de la misma; también es importante determinar el tipo de organización a la cual se pertenece o se quiere impactar. 
               b(style="color: #214BE5;") La metodología de <i>Design Thinking</i> es comúnmente utilizada para iniciar procesos de innovación difusos donde el usuario es la principal fuente de información para solucionar problemas reales.
 
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-lg-0
             img(src="@/assets/curso/images/tema1/img_6.svg" alt="", )(data-aos="fade-left")
 
 
