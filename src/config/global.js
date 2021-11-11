@@ -78,7 +78,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Design Thinking 24/7. (2018). Qué es “DESIGN THINKING - PENSAMIENTO DE DISEÑO” Temp 3 Ep 1. [Video]. YouTube',
+        'Design Thinking 24/7. (2018). Qué es “DESIGN THINKING - PENSAMIENTO DE DISEÑO” Temp 3 Ep 1. [Video]. YouTube ',
       link: 'https://www.youtube.com/watch?v=ed6GJWMA61s',
     },
     {
@@ -88,11 +88,11 @@ export default {
     },
     {
       referencia:
-        'Futurizable.com. (2017). Metodologías innovadoras para crear la empresa del futuro.',
+        'Futurizable.com. (2017). Metodologías innovadoras para crear la empresa del futuro. ',
       link: 'https://futurizable.com/metodologias-innovacion/',
     },
     {
-      referencia: 'Leanventures.se. (2016). 9 types of innovation',
+      referencia: 'Leanventures.se. (2016). 9 types of innovation ',
       link:
         'https://leanventures.se/wp-content/uploads/2016/03/9-types-of-innovation.png',
     },
@@ -205,15 +205,50 @@ export default {
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Adriana Marcela Suárez Eljure',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Yenny Patricia Ulloa Villamizar',
@@ -223,6 +258,16 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Alvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

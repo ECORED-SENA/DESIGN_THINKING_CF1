@@ -20,10 +20,14 @@
               p.mb-0 Promueve también el trabajo en redes que, de manera simultánea, invita a las personas a agregar valor desde sus puestos de trabajo. 
     
         p.mb-5 Estas metodologías se dividen en etapas o fases que se componen de un grupo de actividades y herramientas que las personas pueden utilizar para cada momento específico del proceso, sin este ser completamente lineal. En la siguiente figura se puede observar cómo se conectan entre ellas y en qué momento se aplican según el nivel de madurez o necesidad particular de la organización. 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-10
-        p.BorTit <b>Figura 1</b> <br> <i>Fases de las metodologías innovadoras</i>
         
+    .row.justify-content-center.mb-3
+      .col-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1
+          br
+          span Fases de las metodologías innovadoras
+
     .row.justify-content-center.align-items-center
       .col-10
         .jumbotron.mb-2.p-4
@@ -41,7 +45,7 @@
       .col-8.col-md-8.col-lg-6(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .col-8.col-md-8.col-lg-6(data-aos="fade-right")
         img(src="@/assets/curso/images/tema1/img_4.png" alt="", style="width:450px; display:block; margin: 0 auto;")
       .col-12.col-lg-6
@@ -50,18 +54,22 @@
           b(style="color: #214BE5;") la innovación 
           b-none  se entiende como la concepción e implementación de cambios significativos en el producto, proceso, <i>marketing</i> u organización de la empresa con el propósito de mejorar los resultados y tener la aceptación del mercado.  
         
-        p.mb-3 Al hablar de innovación se hace referencia a un proceso dinámico, en el cual se gestionan la incertidumbre y el cambio como una constante en cada uno de los procesos, además del movimiento requerido para que los resultados obtenidos sean sostenibles en el tiempo y generen valor.
+        p.mb-0 Al hablar de innovación se hace referencia a un proceso dinámico, en el cual se gestionan la incertidumbre y el cambio como una constante en cada uno de los procesos, además del movimiento requerido para que los resultados obtenidos sean sostenibles en el tiempo y generen valor.
 
-    .row.justify-content-center.align-items-center
-      .col-12
-        p.BorTit  <b>Figura 2</b>  <br> <i>Seis tipos de innovación</i>
-          .row.justify-content-center.align-items-center.p-5
-            .col-12.col-lg-11
-              img(src='@/assets/curso/images/tema1/img_5.svg' alt="", style="width:1000px; display:block; margin: auto; 0")
+    .row.justify-content-center
+      .col-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2
+          br
+          span Seis tipos de innovación
+            
+    .row.justify-content-center.align-items-center.p-3.mb-5
+      .col-sm-12-md-8-lg-12.col-xl-10
+        img(src='@/assets/curso/images/tema1/img_5.svg' alt="",)
 
     .row.fondo-5.p-4
       .col-lg-12.margen-image
-        .row.justify-content-center.align-items-center.mb-4.mt-5
+        .row.justify-content-center.align-items-center.mb-4
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Tal como se vio antes, existen múltiples metodologías para implementar la innovación dentro de las organizaciones; a continuación, se enuncian las más conocidas:
             .row.justify-content-center.align-items-center 
@@ -114,7 +122,6 @@
 
 
 
-    Muestras
 
     
 </template>

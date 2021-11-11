@@ -111,7 +111,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-md-8.mb-3.col-lg-6(data-aos="fade-right")
           img(src="@/assets/curso/images/tema3/img_16.png" alt="", style="width:450px; display:block; margin: 0 auto;")
-        .col-12.col-lg-6
+        .col-sm-12-md-8-lg-12.col-xl-10
             p.mb-2(style="color: #214BE5;") <b> 2. Mapa de travesía del usuario </b>
             p.mb-3 Esta herramienta es muy utilizada para el diseño de servicios ya que permite tener una visión gráfica sobre el proceso que atraviesa un usuario al acceder a un producto o servicio. 
             .cajon.color-custom-1.p-4.mb-4
@@ -228,7 +228,8 @@
             .col.mb-3.mb-sm-0
               p.text-white Para conocer más sobre la entrevista <b> semiestructurada como herramienta para empatizar,</b> se invita a observar el video que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank")
+              a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=IWLZwLN96O8" target="_blank")
+                span Ver
                 span Ver
                 i.fas.fa-file-download
 </template>

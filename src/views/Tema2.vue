@@ -143,7 +143,7 @@
             .col.mb-3.mb-sm-0
               p.text-white Conocer algunos ejemplos, se invita a ver el video <b>Metodología <i>Design Thinking</i> – Ejemplos</b>, que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/CF001_actividad didactica.docx')" target="_blank")
+              a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=_ul3wfKss58&t=314s" target="_blank")
                 span Ver
                 i.fas.fa-file-download
 
