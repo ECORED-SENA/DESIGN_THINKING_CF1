@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://github.com/ECORED-SENA/DESIGN_THINKING_CF1](https://github.com/ECORED-SENA/DESIGN_THINKING_CF1)
+[https://ecored-sena.github.io/DESIGN_THINKING_CF1/](https://ecored-sena.github.io/DESIGN_THINKING_CF1/)
 
 #
 
