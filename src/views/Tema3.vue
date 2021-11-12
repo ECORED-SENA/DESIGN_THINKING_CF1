@@ -117,9 +117,8 @@
             .cajon.color-custom-1.p-4.mb-4
               p En él se rastrean y describen las experiencias del cliente a través de los puntos de contacto que ofrecen los servicios y, así, comprender  las emociones que surgen en los clientes y entender su interacción con nuestro producto o servicio. 
 
-      .row.justify-content-center.align-items-center.p-2
-        .col-4.sm-12-md-12-lg-4.xl-4
-          h3 Mapa de travesía del usuario
+      .titulo-quinto.color-acento-contenido
+          h4 Mapa de travesía del usuario
 
       .row.justify-content-center.align-items-center.p-4
         .col-12
@@ -144,7 +143,7 @@
           p.mb-3 Es una técnica de investigación cualitativa que se utiliza para recolectar información de usuarios que permite entender con mayor grado de detalle, percepciones, motivaciones, y frustraciones alrededor de una situación en particular. En este tipo de entrevista es importante tener claros los objetivos de la misma para guiar la conversación y enfocar la atención en los temas principales, además de profundizar y descubrir aspectos relevantes.
 
           p.mb-0 Para esto se debe diseñar el instrumento de recolección de información que contenga preguntas abiertas y que sirva como guía más no como guion y, además, propiciar un ambiente de confianza que permitan al entrevistado expresarse libremente.
-      .tarjeta--container.row.mb-5
+      .tarjeta--container.row
         .col-md.tarjeta.sp1.p-5
           .row.justify-content-center.mb-4
             .h2.text-center <b> Se recomienda  </b> 
@@ -198,7 +197,7 @@
                   i.fas.fa-angle-right
                   p.text-white Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
 
-    .row.justify-content-center.align-items-center.my-3
+    .row.justify-content-center.align-items-center.my-5
       .col-lg-7.mb-4.mb-lg-0
         p.mb-2(style="color: #214BE5;") <b> Creación del arquetipo </b>
           p.mb-3 Se conoce como arquetipo a personajes ficticios que se crean con la información de usuarios reales y que permite identificar diferentes elementos del usuario al que se quiere impactar con la solución que se tiene en mente. Estos elementos son: motivaciones, expectativas y metas, su identificación genera claridad en los beneficios y puntos a mejorar de la solución. 

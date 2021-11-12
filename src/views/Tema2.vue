@@ -147,7 +147,7 @@
                 span Ver
                 i.fas.fa-file-download
 
-    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del Design Thinking, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking </i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
 
     LineaTiempoA.color-primario.my-5(:datos="datosLineaTiempoA")
     
@@ -156,7 +156,7 @@
         figure
           img(src="@/assets/curso/images/tema2/img_5.png" alt="", style="width:300px; display:block; margin: 0 auto;")
       .col-lg-8
-        p De acuerdo con la universidad de Stanford, la metodología <i>Design Thinking </i>cuenta con cinco fases que se describen a continuación:
+        p De acuerdo con la universidad de <i>Stanford</i>, la metodología <i>Design Thinking </i>cuenta con cinco fases que se describen a continuación:
 
         #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
           .carousel-indicators
@@ -279,7 +279,7 @@ export default {
         ano: '2008',
         titulo: '',
         texto:
-          'La metodología que conocemos hoy es el resultado del trabajo de <i>Tim Brown</i>, cuando escribió un tratado en <i>Harvard Business Review </i> en el que desarrolló una metodología iniciada por <i> Herbert Simons </i>, llamada <i>Design Thinking</i> "Contemplation", este artículo marca el inicio del uso del <i>Design Thinking</i> como una gran técnica de innovación.',
+          'La metodología que conocemos hoy es el resultado del trabajo de <i>Tim Brown</i>, cuando escribió un tratado en <i>Harvard Business Review </i> en el que desarrolló una metodología iniciada por <i> Herbert Simons </i>, llamada <i>Design Thinking</i> <i>"Contemplation"</i>, este artículo marca el inicio del uso del <i>Design Thinking</i> como una gran técnica de innovación.',
       },
     ],
   }),
