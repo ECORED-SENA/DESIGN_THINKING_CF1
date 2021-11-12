@@ -1,4 +1,4 @@
-# **sena-base-2021 v4.2.0**
+# **Design Thinking**
 
 ## **Enlace GitHubPages**
 
