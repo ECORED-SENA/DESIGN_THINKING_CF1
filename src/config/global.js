@@ -30,7 +30,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Design Thinking',
+        titulo: '<i>Design Thinking</i>',
         desarrolloContenidos: true,
       },
       {

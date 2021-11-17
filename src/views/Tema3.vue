@@ -48,7 +48,7 @@
        
           p.mb-0 Existen diferentes herramientas y técnicas para comenzar a empatizar dentro de un proceso de <i> Design Thinking </i>, donde su objetivo principal es sumergir al interesado en información proveniente de diferentes fuentes para entender la realidad del problema identificado en ojos del usuario seleccionado de la manera más genuina posible. Lo anterior con el propósito de consolidar datos verídicos que permitan una toma de decisiones acertada y minimicen la incertidumbre generada en este tipo de procesos.  
 
-    p.mb-3 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología Design Thinking, a continuación se profundizará en las más usadas:
+    p.mb-5 Existe diversidad de herramientas para comenzar con un proceso de empatía dentro de la metodología Design Thinking, a continuación se profundizará en las más usadas:
 
     h3 Técnicas para desarrollar procesos de empatía
 
@@ -71,27 +71,27 @@
             img(src='@/assets/curso/images/tema3/img_5.svg',  alt="",)
             
 
-        .tarjeta.color-infografica.p-3(x="51%" y="19%")
+        .tarjeta.color-infografica.p-3(x="50.5%" y="18.5%")
           .row.justify-content-center.mb-3  
             .col-8
               p Conocer cuáles son las principales inquietudes y aspiraciones del usuario a corto, mediano y largo plazo.
 
-        .tarjeta.color-infografica.p-3(x="66%" y="38%")
+        .tarjeta.color-infografica.p-3(x="66%" y="38.5%")
           .row.justify-content-center.mb-3  
             .col-8
               p Describir el entorno social de la persona, cómo es y qué imágenes o situaciones se presentan dentro de su cotidianidad.
 
-        .tarjeta.color-infografica.p-3(x="53%" y="92%")
+        .tarjeta.color-infografica.p-3(x="53.5%" y="91.7%")
           .row.justify-content-center.mb-3  
             .col-8
               p Este mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
         
-        .tarjeta.color-infografica.p-3(x="50%" y="58%")
+        .tarjeta.color-infografica.p-3(x="50.5%" y="58%")
           .row.justify-content-center.mb-3      
             .col-8
               p Detallar el discurso de la persona, cómo es su comportamiento y sus prácticas diarias, entender si hay coherencia entre estas dos prácticas para conocer al usuario desde su comportamiento.
 
-        .tarjeta.color-infografica.p-3(x="35%" y="38%")
+        .tarjeta.color-infografica.p-3(x="35%" y="38.5%")
           .row.justify-content-center.mb-3  
             .col-8
               p Describir los estímulos que escucha el usuario, abarcando su estilo musical, el tipo de noticias, información de familiares, amigos y líderes de opinión que sigue.
@@ -146,56 +146,55 @@
       .tarjeta--container.row
         .col-md.tarjeta.sp1.p-5
           .row.justify-content-center.mb-4
-            .h2.text-center <b> Se recomienda  </b> 
-              br
-              ul.lista-ul
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Enfocarse en la necesidad, no en la solución.
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Tener cuidado con el sesgo de confirmación.
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white El entrevistado no está para validar lo que piensa el entrevistador. El entrevistador está ahí para descubrir una necesidad.
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Hacer la entrevista en persona y una persona a la vez. Esto te permitirá captar señales de gestos y expresiones faciales. 
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Hacer preguntas abiertas, que parezca una conversación, esto permite lograr más profundidad en los temas clave y tener nuevos hallazgos. 
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Propiciar espacios para que los usuarios cuenten una historia.
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Procura escuchar más de lo que hablas.
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Seguir su instinto y profundizar preguntando varias veces (¿por qué?).
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Entender las necesidades del usuario.
+            h3.text-white.text-center.mb-4 <b> Se recomienda  </b>               
+            ul.lista-ul.text-white
+              li 
+                i.fas.fa-angle-right
+                p.text-white Enfocarse en la necesidad, no en la solución.
+              li 
+                i.fas.fa-angle-right
+                p.text-white Tener cuidado con el sesgo de confirmación.
+              li 
+                i.fas.fa-angle-right
+                p.text-white El entrevistado no está para validar lo que piensa el entrevistador. El entrevistador está ahí para descubrir una necesidad.
+              li 
+                i.fas.fa-angle-right
+                p.text-white Hacer la entrevista en persona y una persona a la vez. Esto te permitirá captar señales de gestos y expresiones faciales. 
+              li 
+                i.fas.fa-angle-right
+                p.text-white Hacer preguntas abiertas, que parezca una conversación, esto permite lograr más profundidad en los temas clave y tener nuevos hallazgos. 
+              li 
+                i.fas.fa-angle-right
+                p.text-white Propiciar espacios para que los usuarios cuenten una historia.
+              li 
+                i.fas.fa-angle-right
+                p.text-white Procura escuchar más de lo que hablas.
+              li 
+                i.fas.fa-angle-right
+                p.text-white Seguir su instinto y profundizar preguntando varias veces (¿por qué?).
+              li 
+                i.fas.fa-angle-right
+                p.text-white Entender las necesidades del usuario.
         .col-md.tarjeta.sp2.p-5
           .row.justify-content-center
-            .h2.text-center <b> Evitar </b>
-              br
-              ul.lista-ul
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Sentir que se sabe todas las respuestas.          
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Esperar que el usuario tenga todas las respuestas y soluciones.
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Los usuarios identifican sus motivaciones, necesidades o frustraciones. 
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white No es un momento para vender, sino para aprender, se recomienda no mencionar las ideas de cómo resolver el problema. 
-                li 
-                  i.fas.fa-angle-right
-                  p.text-white Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
+            h3.text-white.text-center.mb-4 <b> Evitar </b>
+            
+            ul.lista-ul.text-white
+              li 
+                i.fas.fa-angle-right
+                p.text-white Sentir que se sabe todas las respuestas.          
+              li 
+                i.fas.fa-angle-right
+                p.text-white Esperar que el usuario tenga todas las respuestas y soluciones.
+              li 
+                i.fas.fa-angle-right
+                p.text-white Los usuarios identifican sus motivaciones, necesidades o frustraciones. 
+              li 
+                i.fas.fa-angle-right
+                p.text-white No es un momento para vender, sino para aprender, se recomienda no mencionar las ideas de cómo resolver el problema. 
+              li 
+                i.fas.fa-angle-right
+                p.text-white Para tener perspectivas realistas se recomienda no incluir personas conocidas (amigos/familiares) dentro de la muestra de entrevistados. 
 
     .row.justify-content-center.align-items-center.my-5
       .col-lg-7.mb-4.mb-lg-0
@@ -228,8 +227,7 @@
               p.text-white Para conocer más sobre la entrevista <b> semiestructurada como herramienta para empatizar,</b> se invita a observar el video que se encuentra en el material complementario.
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=IWLZwLN96O8" target="_blank")
-                span Ver
-                span Ver
+                span Ver                
                 i.fas.fa-file-download
 </template>
 
