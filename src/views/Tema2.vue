@@ -134,7 +134,7 @@
               figure
                 img(src='@/assets/curso/images/tema2/ico_2.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
 
-    .tarjeta.color-primario.p-3.mb-3
+    .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/images/tema2/ico_21.svg")
@@ -147,7 +147,7 @@
                 span Ver
                 i.fas.fa-file-download
 
-    p.mb-3 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking </i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
+    p.mb-5 En las últimas décadas se ha venido escribiendo mucho acerca del <i>Design Thinking </i>, concepto que ya es ampliamente conocido y utilizado en el ámbito empresarial.
 
     LineaTiempoA.color-primario.my-5(:datos="datosLineaTiempoA")
     
