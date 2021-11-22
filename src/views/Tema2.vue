@@ -267,7 +267,7 @@ export default {
         ano: '1969',
         titulo: '',
         texto:
-          'El concepto de <i> Design Thinking </i> fue creado por <i> Herbert Simon</i>,premio Nobel de Economía,quien escribió el libro Ciencia humana; el término “pensamiento de diseño” se acuñó por primera vez en este libro.',
+          'El concepto de <i> Design Thinking </i> fue creado por <i> Herbert Simon</i>, premio Nobel de Economía, quien escribió el libro Ciencia humana; el término “pensamiento de diseño” se acuñó por primera vez en este libro.',
       },
       {
         ano: '1970',
