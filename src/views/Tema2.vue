@@ -97,7 +97,7 @@
             .col-md-6.mb-4.mb-md-0.p-4
               p Tener la capacidad de entender las cosas desde la perspectiva del usuario.
 
-              p El <i>Design Thinking</i>es un enfoque centrado en el usuario para la resolución de problemas. Comienza con un profundo entendimiento de la perspectiva del usuario así como sus emociones y comportamientos. 
+              p El <i>Design Thinking</i> es un enfoque centrado en el usuario para la resolución de problemas. Comienza con un profundo entendimiento de la perspectiva del usuario así como sus emociones y comportamientos. 
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema2/ico_5.svg' alt="", style="width:200px; display:block; margin:auto 0;").m-auto
@@ -267,7 +267,7 @@ export default {
         ano: '1969',
         titulo: '',
         texto:
-          'El concepto de <i> Design Thinking </i> fue creado por <i> Herbert Simon </i>, Premio Nobel de Economía, quien escribió el libro Ciencia humana; el término “pensamiento de diseño” se acuñó por primera vez en este libro.',
+          'El concepto de <i> Design Thinking </i> fue creado por <i> Herbert Simon </i>,premio Nobel de Economía,quien escribió el libro Ciencia humana; el término “pensamiento de diseño” se acuñó por primera vez en este libro.',
       },
       {
         ano: '1970',

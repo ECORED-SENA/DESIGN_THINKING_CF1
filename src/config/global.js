@@ -133,11 +133,11 @@ export default {
       texto:
         'Design Thinking España. (2020). Metodología Design Thinking. Ejemplos. [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=_ul3wfKss58&t=314s',
+      link: 'https://www.youtube.com/watch?v=_ul3wfKss58',
     },
     {
       texto:
-        'Bedolla, K. (2017). Entrevista semiestructurada.  [Video]. YouTube. ',
+        'Bedolla,K. (2017). Entrevista semiestructurada.  [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IWLZwLN96O8',
     },

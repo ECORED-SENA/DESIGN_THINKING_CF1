@@ -84,7 +84,7 @@
         .tarjeta.color-infografica.p-3(x="53.5%" y="91.7%")
           .row.justify-content-center.mb-3  
             .col-8
-              p Este mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar mpacto y valor en las soluciones ofrecidas.
+              p Este mapa de empatía permite conocer en profundidad al usuario, recogiendo sus características principales para tomar decisiones que permitan generar impacto y valor en las soluciones ofrecidas.
         
         .tarjeta.color-infografica.p-3(x="50.5%" y="58%")
           .row.justify-content-center.mb-3      
